@@ -72,9 +72,9 @@ records that demonstrate the supported schema.
 ## Installation
 
 ```bash
-git clone <repository-url>
-cd POOH2
-npm install
+git clone https://github.com/r3ithh/POOH.git
+cd POOH
+npm ci
 npm test
 ```
 
