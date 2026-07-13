@@ -1,0 +1,11 @@
+3
+3
+x10
+01x
+1x0
+100
+
+;Places=P1;P2;P3
+;Transitions=t1;t2;t3
+;Benchmark: xt_decomposition_case
+;Expected: small net for XT/r-exact decomposition smoke tests

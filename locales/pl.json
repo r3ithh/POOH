@@ -1,0 +1,1656 @@
+{
+  "brand.subtitle": "Power Objects of Hypergraphs",
+  "header.darkTheme": "Ciemny motyw",
+  "header.language": "Język",
+  "header.systemVersion": "Wersja systemu",
+  "language.pl": "Polski",
+  "language.en": "English",
+  "sidebar.note": "Wybierz moduł po lewej, aby otworzyć szczegóły w zakładce „Panel funkcji”.",
+  "nav.edit": "Edycja",
+  "nav.sim": "Analiza",
+  "nav.sfc": "SFC",
+  "nav.fuzzy": "Max+ Fuzzy",
+  "nav.draw": "Rysowanie",
+  "nav.io": "Import",
+  "nav.gen": "Generator",
+  "nav.lib": "Biblioteka",
+  "nav.bench": "Benchmarki",
+  "nav.meta": "Metadane",
+  "nav.class": "Klasy",
+  "nav.auth": "Zespół badawczy",
+  "workspace.canvasTab": "Płótno sieci Petriego",
+  "workspace.hypergraphTab": "Rysowanie hipergrafu",
+  "workspace.toolsTab": "Panel funkcji",
+  "workspace.decompositionTab": "Wizualizacja dekompozycji",
+  "workspace.benchmarkTab": "Wyniki badań",
+  "workspace.canvasLabel": "Płótno sieci Petriego",
+  "workspace.hypergraphLabel": "Rysowanie hipergrafu",
+  "workspace.decompositionLabel": "Wizualizacja dekompozycji",
+  "workspace.benchmarkLabel": "Wyniki badań benchmarkowych",
+  "workspace.toolsPrefix": "Panel funkcji",
+  "workspace.modePrefix": "Tryb",
+  "panel.edit": "Edycja",
+  "panel.sim": "Analiza modelu",
+  "panel.sfc": "SFC / PLC",
+  "panel.fuzzy": "(max,+) / Fuzzy",
+  "panel.draw": "Rysowanie hipergrafu",
+  "panel.io": "Import / eksport",
+  "panel.gen": "Generator losowy",
+  "panel.lib": "Biblioteka PNH",
+  "panel.bench": "Benchmarki",
+  "panel.meta": "Metadane PNH",
+  "panel.class": "Klasyfikacja sieci",
+  "panel.auth": "Zespół badawczy",
+  "mode.select": "Zaznacz / przesuń",
+  "mode.place": "Dodaj miejsce",
+  "mode.transition": "Dodaj tranzycję",
+  "mode.arc": "Dodaj łuk",
+  "mode.selectShort": "Zaznacz",
+  "mode.placeShort": "Miejsce",
+  "mode.transitionShort": "Tranzycja",
+  "mode.arcShort": "Łuk",
+  "edit.arcHint": "Tryb łuku: kliknij źródło i cel (miejsce ⇄ tranzycja). Dwuklik na łuku dodaje punkt załamania.",
+  "sim.fireSelected": "Odpal zaznaczoną",
+  "sim.stepRandom": "Krok losowy",
+  "sim.startAuto": "Start auto",
+  "sim.stopAuto": "Stop auto",
+  "sim.enabledNone": "Aktywne tranzycje: brak",
+  "sim.enabledPrefix": "Aktywne tranzycje:",
+  "analysis.checkKicker": "Kontrola modelu",
+  "analysis.checkTitle": "Żywotność i bezpieczeństwo",
+  "analysis.pinvTitle": "P-inwarianty i podsieci",
+  "analysis.pinvNote": "Wynik kroku (1) zasila hipergraf selekcji.",
+  "analysis.hypergraphTitle": "Hipergraf selekcji",
+  "analysis.hypergraphNote": "XTREC i transwersale po zakończeniu kroku (1).",
+  "sim.analyze": "Sprawdź żywotność i bezpieczeństwo",
+  "sim.pinvLabel": "Tryb p-inwariantów",
+  "pinv.mode.coverStop": "Przerwij po pokryciu bazowej sieci",
+  "pinv.mode.full": "Licz do końca (pełny zestaw)",
+  "sim.runPinv": "(1) Wyznacz p-inwarianty",
+  "sim.runPinvRunning": "(1) Wyznaczanie p-inwariantów...",
+  "sim.transversalLabel": "Strategia transwersali",
+  "transversal.all": "Wszystkie (XTR, DLX, backtracking, greedy)",
+  "transversal.xtr": "XTR (Eiter)",
+  "transversal.dlx": "DLX (Algorithm X)",
+  "transversal.backtracking": "Backtracking",
+  "transversal.greedy": "Greedy",
+  "sim.selectionDrawVariant": "Wariant rysunku",
+  "selection.draw.reduced": "Po FRA",
+  "selection.draw.original": "Przed FRA",
+  "sim.selectionButton": "(2) Wyznacz hipergraf selekcji (XTREC)",
+  "sim.selectionButtonRunning": "(2) Wyznaczanie hipergrafu selekcji...",
+  "sim.drawSelectionHypergraph": "Narysuj hipergraf",
+  "sim.compareSelectionHypergraph": "Porównaj przed/po FRA",
+  "selection.compare.title": "Porównanie hipergrafu selekcji",
+  "selection.compare.note": "Oryginał i wynik redukcji FRA narysowane obok siebie.",
+  "selection.compare.before": "Przed FRA",
+  "selection.compare.after": "Po FRA",
+  "selection.compare.hide": "Ukryj porównanie",
+  "manualHypergraph.title": "Ręczny hipergraf XT",
+  "manualHypergraph.hint": "Wpisz hiperkrawędzie, narysuj hipergraf i uruchom XTREC.",
+  "manualHypergraph.input": "Hiperkrawędzie",
+  "manualHypergraph.placeholder": "E1: v1 v2\nE2: v2 v3\nE3: v1 v3",
+  "manualHypergraph.run": "Narysuj i sprawdź XT",
+  "hypergraphEditor.open": "Otwórz edytor hipergrafu",
+  "hypergraphEditor.panelStatus": "Edytor graficzny pozwala budować hipergraf przez hiperwierzchołki i kolorowe hiperkrawędzie.",
+  "hypergraphEditor.summaryNone": "Brak narysowanego hipergrafu.",
+  "hypergraphEditor.statusIdle": "Tryb zaznaczania. Dodaj hiperwierzchołki i hiperkrawędzie.",
+  "hypergraphEditor.outputNone": "Brak wyników analizy hipergrafu.",
+  "hypergraphEditor.showResults": "Pokaż wyniki",
+  "hypergraphEditor.hideResults": "Ukryj wyniki",
+  "hypergraphEditor.modeSelect": "Zaznacz",
+  "hypergraphEditor.modeVertex": "Hiper -\nwierzchołek",
+  "hypergraphEditor.modeEdge": "Hiper -\nkrawędź",
+  "hypergraphEditor.finishEdge": "Dodaj hiperkrawędź",
+  "hypergraphEditor.delete": "Usuń zaznaczone",
+  "hypergraphEditor.clear": "Wyczyść",
+  "hypergraphEditor.fra": "Redukcja FRA",
+  "hypergraphEditor.showReduced": "Pokaż zredukowany",
+  "hypergraphEditor.showOriginal": "Pokaż oryginalny",
+  "hypergraphEditor.transversal": "Transwersala",
+  "hypergraphEditor.exactTransversal": "Transwersala dokładna",
+  "hypergraphEditor.allTransversals": "Wszystkie transwersale",
+  "hypergraphEditor.structure": "Klasyfikacja hipergrafu",
+  "hypergraphEditor.structureIdle": "Klasyfikacja strukturalna nie została jeszcze uruchomiona.",
+  "hypergraphEditor.structureTitle": "Typy hipergrafu",
+  "hypergraphEditor.structureUniform": "Jednorodny",
+  "hypergraphEditor.structureLinear": "Liniowy",
+  "hypergraphEditor.structureClutter": "Clutter/Sperner",
+  "hypergraphEditor.structureSimple": "Prosty",
+  "hypergraphEditor.structureRegular": "Regularny",
+  "hypergraphEditor.structureRank": "Ranga",
+  "hypergraphEditor.structureMaxDegree": "Maks. stopień",
+  "hypergraphEditor.structureCExact": "c-exact",
+  "hypergraphEditor.cExact": "Spektrum c-exact",
+  "hypergraphEditor.cExactIdle": "Spektrum c-exact nie zostało jeszcze uruchomione.",
+  "hypergraphEditor.cExactTitle": "Spektrum c-exact",
+  "hypergraphEditor.cExactLevels": "Poziomy c",
+  "hypergraphEditor.cExactSolutions": "Rozwiązania",
+  "hypergraphEditor.cExactSelected": "Wybrane c-exact",
+  "hypergraphEditor.structuralXt": "Warunki XT",
+  "hypergraphEditor.structuralXtIdle": "Warunki XT nie zostały jeszcze sprawdzone.",
+  "hypergraphEditor.structuralXtTitle": "Warunki XT z artykułu",
+  "hypergraphEditor.structuralXtCertified": "certyfikat",
+  "hypergraphEditor.structuralXtNoCert": "brak certyfikatu",
+  "hypergraphEditor.infoTitle": "Jak czytać analizy",
+  "hypergraphEditor.infoButtonTitle": "Informacje o transwersalach i klasach exact",
+  "hypergraphEditor.infoTransversalTitle": "Transwersala zwykła",
+  "hypergraphEditor.infoTransversalText": "Zbiór T hiperwierzchołków jest transwersalą, gdy przecina każdą hiperkrawędź: |T∩E_j| ≥ 1 dla każdego E_j.",
+  "hypergraphEditor.infoExactTitle": "Transwersala dokładna",
+  "hypergraphEditor.infoExactText": "Transwersala dokładna wybiera dokładnie jeden reprezentant z każdej hiperkrawędzi: |T∩E_j| = 1 dla każdego E_j.",
+  "hypergraphEditor.infoCExactTitle": "c-exact",
+  "hypergraphEditor.infoCExactText": "Hipergraf ma rozwiązanie c-exact dla poziomu c, gdy istnieje zbiór S taki, że każda hiperkrawędź ma dokładnie c wybranych hiperwierzchołków: |S∩E_j| = c.",
+  "hypergraphEditor.infoXtTitle": "XT / 1-exact",
+  "hypergraphEditor.infoXtText": "XT traktujemy tu jako przypadek 1-exact: dokładnie jedno trafienie na hiperkrawędź. Przycisk Sprawdź XT uruchamia niezależny test XTREC.",
+  "hypergraphEditor.infoRExactTitle": "r-exact",
+  "hypergraphEditor.infoRExactText": "Analiza r-exact liczy r* = max |T∩E_j| po minimalnych transwersalach. Hipergraf spełnia próg r, gdy r* ≤ r; XT odpowiada przypadkowi r = 1.",
+  "hypergraphEditor.infoStructuralXtTitle": "Warunki XT",
+  "hypergraphEditor.infoStructuralXtText": "Raport sprawdza wystarczające warunki z artykułu: rozłączność modułów, redukcje duplikatów/dominacji, laminarność, XTREC, las gwiazd i założenia 1-safe/live.",
+  "hypergraphEditor.xtrec": "Sprawdź XT",
+  "hypergraphEditor.rExact": "Sprawdź r-exact",
+  "hypergraphEditor.rExactLabel": "Próg r",
+  "hypergraphEditor.rExactIdle": "Analiza r-exact nie została jeszcze uruchomiona.",
+  "hypergraphEditor.rExactCardTitle": "Analiza r-exact",
+  "hypergraphEditor.rExactPass": "TAK",
+  "hypergraphEditor.rExactFail": "NIE",
+  "hypergraphEditor.rExactForThreshold": "dla r",
+  "hypergraphEditor.rExactRStar": "r*",
+  "hypergraphEditor.rExactThreshold": "Próg r",
+  "hypergraphEditor.rExactXt": "XT / 1-exact",
+  "hypergraphEditor.rExactMinimal": "Minimalne T",
+  "hypergraphEditor.rExactExact": "Dokładne T",
+  "hypergraphEditor.rExactSearch": "Enumeracja",
+  "hypergraphEditor.rExactWitness": "Świadek r*",
+  "hypergraphEditor.rExactDistribution": "Rozkład",
+  "hypergraphEditor.rExactPartial": "Wynik częściowy",
+  "hypergraphEditor.rExactTruncated": "Enumeracja ograniczona limitem; r* może być niedoszacowane.",
+  "hypergraphEditor.transversalPicker": "Wybrana transwersala",
+  "hypergraphEditor.transversalHint": "Wybierz transwersalę z listy, aby pokazać ją na rysunku.",
+  "hypergraphEditor.clearTransversal": "Ukryj transwersalę",
+  "sfc.profile": "Profil syntezy",
+  "sfc.profile.hybrid": "Hybrydowy SFC+ST (zalecany)",
+  "sfc.profile.strict": "Czyste SFC (dla 1-safe)",
+  "sfc.sync": "Synchronizacja tranzycji wspólnych",
+  "sfc.sync.handshake": "REQ/ACK (koordynator ST)",
+  "sfc.sync.none": "Brak synchronizacji globalnej",
+  "sfc.source": "Źródło podsieci",
+  "sfc.source.recommended": "Rekomendowane pokrycie (transwersala)",
+  "sfc.source.allCorrect": "Wszystkie poprawne podsieci automatowe",
+  "sfc.ideTarget": "Profil eksportu IDE",
+  "sfc.ideTarget.codesys": "CODESYS (PLCopen XML + task)",
+  "sfc.ideTarget.tia": "TIA Portal (SCL + mapa bloków)",
+  "sfc.traceLength": "Długość walidacji śladu",
+  "sfc.maxplus.defaultDelay": "(max,+): domyślny czas miejsca",
+  "sfc.maxplus.delayMap": "(max,+): mapa czasów miejsc",
+  "sfc.maxplus.delayMapPlaceholder": "np. P1=2, P5=0.5, P9=3",
+  "sfc.maxplus.syncOverhead": "(max,+): narzut synchronizacji XT",
+  "sfc.build": "Zbuduj model SFC (w tle)",
+  "sfc.buildRunning": "Budowanie modelu SFC...",
+  "sfc.validate": "Waliduj ślad PN ↔ SFC",
+  "sfc.validateRunning": "Walidacja PN ↔ SFC...",
+  "sfc.maxplus.run": "Analiza czasowa (max,+)",
+  "sfc.maxplus.runRunning": "Analiza (max,+) w toku...",
+  "sfc.exportXml": "Eksport PLCopen XML",
+  "sfc.exportSt": "Eksport ST (koordynator)",
+  "sfc.exportIde": "Eksport mapowania IDE",
+  "fuzzy.hint": "Strukturalny generator modeli Takagi-Sugeno max-plus z dekompozycji 1-exact/XT.",
+  "fuzzy.source": "Źródło pipeline",
+  "fuzzy.sourcePetri": "Dekompozycja Petri/XT/SMC",
+  "fuzzy.sourceHypergraph": "Ręcznie narysowany hipergraf exact",
+  "fuzzy.sourceNotePetri": "Tryb Petri używa p-inwariantów, hipergrafu selekcji i lokalnych modeli max-plus.",
+  "fuzzy.sourceNoteHypergraph": "Tryb hipergrafu uruchamia fuzzy exact transversal / α-cut na ręcznie narysowanym hipergrafie; lokalne A_i wymagają późniejszego mapowania do Petri/SMC.",
+  "fuzzy.mappingTitle": "Mapowanie hiperwierzchołków → Petri/SMC",
+  "fuzzy.mappingHint": "Przypisz hiperwierzchołki do komponentów SMC lub ręcznie podaj miejsca/tranzycje.",
+  "fuzzy.mappingRefresh": "Odśwież mapowanie",
+  "fuzzy.mappingAuto": "Automapuj SMC",
+  "fuzzy.mappingClear": "Wyczyść mapowanie",
+  "fuzzy.mappingNone": "Brak narysowanego hipergrafu do mapowania.",
+  "fuzzy.mappingNoSmc": "Brak komponentów SMC. Możesz wpisać własne miejsca/tranzycje albo najpierw uruchomić p-inwarianty i hipergraf selekcji.",
+  "fuzzy.mappingStatus": "Hiperwierzchołki: {vertices}, komponenty SMC: {smc}, mapowania max-plus: {mapped}.",
+  "fuzzy.mappingSubnet": "Komponent SMC",
+  "fuzzy.mappingCustomPlaces": "Miejsca",
+  "fuzzy.mappingCustomTransitions": "Tranzycje",
+  "fuzzy.mappingUnmapped": "Brak mapowania",
+  "fuzzy.alpha": "Poziom α-cut",
+  "fuzzy.alphaStep": "Krok α-sweep",
+  "fuzzy.defaultDelay": "Domyślny czas miejsca",
+  "fuzzy.delayMap": "Mapa czasów miejsc",
+  "fuzzy.delayMapPlaceholder": "np. P1=2, P5=0.5, P9=3",
+  "fuzzy.syncOverhead": "Narzut synchronizacji / rekonfiguracji",
+  "fuzzy.membershipTitle": "Wagi μ(v,E)",
+  "fuzzy.muBase": "Baza",
+  "fuzzy.muConcurrency": "Współbieżność",
+  "fuzzy.muConflict": "Brak konfliktu",
+  "fuzzy.muTime": "Czas",
+  "fuzzy.muCoupling": "Brak coupling",
+  "fuzzy.muReconfiguration": "Brak rekonfiguracji",
+  "fuzzy.maxSize": "Limit |T| ≤ q",
+  "fuzzy.maxCoupling": "Limit coupling δ",
+  "fuzzy.lambdaLimit": "Limit λ max-plus Λ",
+  "fuzzy.lambdaLimitPlaceholder": "bez limitu",
+  "fuzzy.mpcHorizon": "Horyzont MPC",
+  "fuzzy.experimentLabel": "Etykieta eksperymentu",
+  "fuzzy.experimentLabelPlaceholder": "np. habilitacja-alpha-07",
+  "fuzzy.build": "Zbuduj T-S max-plus",
+  "fuzzy.showHypergraphSolution": "Pokaż T* na hipergrafie",
+  "fuzzy.exportJson": "Eksport JSON",
+  "fuzzy.exportCsv": "Eksport CSV reguł",
+  "fuzzy.exportAlphaCsv": "Eksport α CSV",
+  "fuzzy.exportMuCsv": "Eksport μ CSV",
+  "fuzzy.exportLatex": "Eksport LaTeX",
+  "fuzzy.exportReport": "Eksport raportu",
+  "fuzzy.saveRun": "Zapisz eksperyment",
+  "fuzzy.refreshRuns": "Odśwież rejestr",
+  "status.fuzzyRunsReady": "Rejestr eksperymentów czeka na dane.",
+  "status.fuzzyRunsNone": "Brak zapisanych eksperymentów do porównania.",
+  "status.fuzzyReady": "Moduł (max,+) / Fuzzy czeka na wyniki kroków (1) i (2).",
+  "status.fuzzyPipelineNone": "Brak raportu pipeline.",
+  "status.fuzzyMembershipNone": "Brak raportu μ(v,E).",
+  "status.fuzzyRelationsNone": "Brak macierzy relacji Petri/XT.",
+  "status.fuzzyMaxPlusNone": "Brak samodzielnego modelu max-plus.",
+  "status.fuzzyRulesNone": "Brak reguł Takagi-Sugeno.",
+  "decomposition.viewMode": "Tryb widoku",
+  "decomposition.view.transversal": "Podsieci rozwiązania (transwersala)",
+  "decomposition.view.allCorrect": "Podsieci hipergrafu selekcji",
+  "decomposition.view.allPinv": "Wszystkie p-inwarianty",
+  "decomposition.view.hypergraphSelection": "Hipergraf selekcji",
+  "decomposition.view.hypergraphManual": "Hipergraf ręczny",
+  "decomposition.view.sfc": "Podsieć SFC",
+  "decomposition.view.maxplus": "(max,+) graf tranzycji",
+  "decomposition.subnet": "Podsieć",
+  "decomposition.layout": "Rozmieszczenie",
+  "decomposition.layout.source": "Pozycje z sieci pierwotnej",
+  "decomposition.layout.auto": "Auto (warstwowe)",
+  "io.layoutModeLabel": "Tryb rozrysowania",
+  "layout.smart": "Smart (auto)",
+  "layout.layered": "Warstwowy (Sugiyama)",
+  "layout.radial": "Radialny",
+  "layout.organic": "Organiczny (siłowy)",
+  "layout.coordinates": "Współrzędne z pliku",
+  "io.relayout": "Przerysuj aktualną sieć",
+  "io.newNet": "Nowa sieć",
+  "io.saveJson": "Zapisz JSON",
+  "io.loadJson": "Wczytaj JSON",
+  "io.loadPnh": "Wczytaj PNH",
+  "io.exportPnh": "Eksport PNH",
+  "gen.placeCount": "Liczba miejsc",
+  "gen.transitionCount": "Liczba tranzycji",
+  "gen.netType": "Rodzaj sieci",
+  "gen.netType.any": "Dowolna (PN)",
+  "gen.netType.mg": "MG",
+  "gen.netType.fc": "FC",
+  "gen.netType.efc": "EFC",
+  "gen.netType.sm": "SM",
+  "gen.netType.pn": "PN",
+  "gen.method": "Metoda generowania",
+  "gen.method.adaptive": "Adaptacyjna komponentowa (heurystyczna)",
+  "gen.method.workflow": "Process-tree / workflow patterns",
+  "gen.method.region": "Region-inspired (TS -> PN)",
+  "gen.method.refinement": "Stepwise Refinement (MCC)",
+  "gen.live": "Żywotność",
+  "gen.live.any": "Dowolna",
+  "gen.live.yes": "Wymuś żywą",
+  "gen.live.no": "Wymuś nieżywą",
+  "gen.safe": "Bezpieczeństwo",
+  "gen.safe.any": "Dowolne",
+  "gen.safe.yes": "Wymuś bezpieczną",
+  "gen.safe.no": "Wymuś niebezpieczną",
+  "gen.redundant": "Nadmiarowe podsieci automatowe (min.)",
+  "gen.xtHypergraph": "Wymuszaj xt-hipergraf selekcji (1-exact, Eiter 1994)",
+  "gen.generate": "Generuj sieć",
+  "gen.searchSummary": "Przeszukiwanie zaawansowane",
+  "gen.searchMinPlaces": "Min. miejsc",
+  "gen.searchMaxPlaces": "Max. miejsc",
+  "gen.searchMinTransitions": "Min. tranzycji",
+  "gen.searchMaxTransitions": "Max. tranzycji",
+  "gen.searchTimeLimit": "Limit czasu (sekundy)",
+  "gen.searchBtn": "Szukaj sieci",
+  "gen.searchTitle": "Przeszukiwanie sieci Petriego",
+  "gen.searchMessage": "Trwa przeszukiwanie zakresów. Możesz przerwać obliczenia.",
+  "lib.library": "Biblioteka",
+  "lib.accessTitle": "Dostęp do biblioteki",
+  "lib.username": "Login",
+  "lib.password": "Hasło",
+  "lib.login": "Zaloguj",
+  "lib.logout": "Wyloguj",
+  "lib.loginPlaceholder": "np. admin",
+  "lib.passwordPlaceholder": "••••••••",
+  "lib.authRequired": "Ta operacja wymaga logowania.",
+  "lib.manageHint": "Aby zarządzać biblioteką (tworzenie, zmiana nazwy, upload), zaloguj się.",
+  "lib.authStateLoggedOut": "Niezalogowany.",
+  "lib.authStateLoggedInPrefix": "Zalogowany:",
+  "lib.credentialsRequired": "Podaj login i hasło.",
+  "lib.rename": "Zmień nazwę",
+  "lib.new": "Nowa biblioteka",
+  "lib.refresh": "Odśwież bibliotekę",
+  "lib.uploadFiles": "Wgraj pliki PNH",
+  "lib.uploadFolder": "Wgraj folder PNH",
+  "lib.file": "Plik PNH z biblioteki",
+  "lib.filePlaceholder": "Wpisz nazwę pliku PNH",
+  "lib.loadSelected": "Wczytaj wybrany plik",
+  "lib.namePlaceholder": "Nazwa biblioteki",
+  "lib.noneLibraries": "Brak bibliotek",
+  "lib.noneFiles": "Brak plików PNH",
+  "bench.files": "Pliki benchmarkowe (multiwybór)",
+  "bench.fileFilter": "Filtr plików benchmarkowych",
+  "bench.fileFilterPlaceholder": "np. lnet, cn_, philosopher",
+  "bench.fileLimit": "Limit widocznych plików",
+  "bench.strataTarget": "Rozmiar próby reprezentatywnej",
+  "bench.applyFilter": "Zastosuj filtr",
+  "bench.selectAll": "Zaznacz widoczne",
+  "bench.clearSelection": "Wyczyść zaznaczenie",
+  "bench.repeatCount": "Liczba powtórzeń na benchmark",
+  "bench.pinvMode": "Martinez-Silva (tryb)",
+  "bench.acceleration": "XTREC (akceleracja)",
+  "bench.pinvAcceleration": "Martinez-Silva (akceleracja)",
+  "bench.accel.cpu": "CPU",
+  "bench.accel.webgpu": "WebGPU",
+  "bench.accel.webgl": "WebGL",
+  "bench.accel.compareCpuWebgpu": "CPU vs WebGPU",
+  "bench.profile": "Profiluj zakres",
+  "bench.selectRepresentative": "Dobierz próbę",
+  "bench.runRepresentative": "Uruchom próbę CPU vs WebGPU",
+  "bench.exportProfileCsv": "Eksport profilu CSV",
+  "bench.run": "Uruchom benchmarki",
+  "bench.running": "Trwają benchmarki...",
+  "bench.cancel": "Przerwij benchmarki",
+  "bench.hint": "Wyniki benchmarków są dostępne w zakładce „Wyniki badań”.",
+  "bench.exportCsv": "Eksport CSV",
+  "bench.exportLatex": "Generuj LaTeX",
+  "meta.filter": "Filtr",
+  "meta.placeholder": "np. benchmark, target, classification",
+  "inspector.title": "Właściwości",
+  "inspector.empty": "Brak zaznaczonego elementu.",
+  "inspector.hypergraphTools": "Aktywne są narzędzia edytora hipergrafu.",
+  "inspector.nodeLabel": "Etykieta",
+  "inspector.tokens": "Tokeny",
+  "inspector.rotate45": "Obróć +45°",
+  "inspector.rotate90": "Obróć +90°",
+  "inspector.rotateReset": "Reset 0°",
+  "inspector.anglePrefix": "Kąt",
+  "inspector.arcWeight": "Waga łuku",
+  "inspector.clearArcBends": "Wyprostuj łuk",
+  "inspector.arcHint": "Edycja kształtu: dwuklik na łuku dodaje punkt, przeciągnij punkt aby zmienić przebieg, dwuklik na punkcie usuwa go.",
+  "inspector.delete": "Usuń zaznaczone",
+  "zoom.outTitle": "Pomniejsz",
+  "zoom.inTitle": "Powiększ",
+  "zoom.resetTitle": "Resetuj zoom",
+  "pan.leftTitle": "Przesuń w lewo",
+  "pan.rightTitle": "Przesuń w prawo",
+  "pan.upTitle": "Przesuń w górę",
+  "pan.downTitle": "Przesuń w dół",
+  "pan.centerTitle": "Wycentruj sieć",
+  "modal.title": "Trwają obliczenia",
+  "modal.message": "Przetwarzanie danych...",
+  "modal.cancel": "Przerwij obliczenia",
+  "status.pinvIdle": "Krok (1) nie został jeszcze uruchomiony.",
+  "status.pinvOutputNone": "Brak wyników kroku (1).",
+  "status.pinvMatrixNone": "Brak macierzy podsieci z kroku (1).",
+  "status.selectionIdle": "Krok (2) czeka na wynik kroku (1).",
+  "status.selectionOutputNone": "Brak wyników kroku (2).",
+  "status.manualHypergraphIdle": "Ręczny hipergraf nie został jeszcze uruchomiony.",
+  "status.manualHypergraphOutputNone": "Brak wyniku ręcznego hipergrafu.",
+  "status.hypergraphEditorIdle": "Tryb zaznaczania. Dodaj hiperwierzchołki i hiperkrawędzie.",
+  "status.hypergraphEditorOutputNone": "Brak wyników analizy hipergrafu.",
+  "status.sfcReady": "Moduł SFC gotowy.",
+  "status.sfcOutputNone": "Brak modelu SFC.",
+  "status.sfcValidationNone": "Brak wyniku walidacji PN ↔ SFC.",
+  "status.sfcMaxPlusNone": "Brak wyniku analizy (max,+).",
+  "status.decompositionNone": "Brak danych dekompozycji. Wyznacz p-inwarianty lub model SFC.",
+  "status.decompositionDetailsNone": "Brak szczegółów wizualizacji.",
+  "status.analysisIdle": "Kontrola modelu nie została jeszcze uruchomiona.",
+  "status.analysisNone": "Brak wyników analizy.",
+  "status.generatorReady": "Generator gotowy.",
+  "status.libraryEmpty": "Brak załadowanej biblioteki.",
+  "status.libraryLoading": "Ładowanie bibliotek PNH...",
+  "status.libraryLocked": "Tryb gościa: możesz przeglądać i wczytywać sieci. Zaloguj się, aby zarządzać biblioteką.",
+  "status.libraryLoggedOut": "Wylogowano. Włączono tryb gościa dla biblioteki.",
+  "status.libraryLoggedIn": "Zalogowano pomyślnie.",
+  "status.metaNone": "Brak metadanych.",
+  "status.metaFilteredNone": "Brak metadanych pasujących do filtra.",
+  "status.classNone": "Brak danych do klasyfikacji.",
+  "author.cardTitle": "Informacja o osobie",
+  "author.cardSubtitle": "Profil osoby i dane kontaktowe",
+  "author.name": "Imię i nazwisko",
+  "author.degree": "Stopień / Tytuł naukowy",
+  "author.emails": "Adresy e-mail",
+  "author.unit": "Jednostka naukowa",
+  "author.role": "Rola w projekcie",
+  "author.researchArea": "Obszar badawczy",
+  "author.profiles": "Profile naukowe",
+  "author.metrics": "Indeksy naukowe",
+  "author.metricsSource": "Źródło",
+  "author.metricsArticles": "Artykuły",
+  "author.metricsCitations": "Cytowania",
+  "author.metricsHIndex": "h-index",
+  "author.metricsI10Index": "i10-index",
+  "author.metricsUpdated": "Aktualizacja",
+  "author.metricsNoData": "Brak danych",
+  "author.metricsRefresh": "Aktualizuj indeksy",
+  "author.metricsRefreshing": "Aktualizowanie...",
+  "author.metricsRefreshOk": "Indeksy zaktualizowane pomyślnie.",
+  "author.metricsRefreshFail": "Błąd aktualizacji indeksów.",
+  "author.metricsEditTitle": "Edycja indeksów naukowych",
+  "author.metricsEditSave": "Zapisz",
+  "author.metricsEditCancel": "Anuluj",
+  "author.metricsEditSaved": "Indeksy zapisane pomyślnie.",
+  "author.metricsEditFail": "Błąd zapisu indeksów.",
+  "author.empty": "Brak danych zespołu badawczego.",
+  "author.loading": "Ładowanie danych zespołu badawczego...",
+  "status.benchReady": "Moduł benchmarków gotowy.",
+  "status.benchCancelled": "Przerwano benchmarki.",
+  "status.benchCurrentIdle": "Brak aktywnego benchmarku.",
+  "status.benchNoResults": "Brak wyników benchmarków.",
+  "status.benchLatexNone": "Brak kodu LaTeX.",
+  "status.relayoutHint": "Po zmianie layoutu uruchom analizę ponownie, jeśli potrzebujesz aktualnych wyników.",
+  "class.yes": "TAK",
+  "class.no": "NIE",
+  "header.login": "Zaloguj",
+  "header.logout": "Wyloguj",
+  "header.loggedInAs": "Zalogowany jako:",
+  "login.title": "Logowanie",
+  "login.subtitle": "Podaj dane dostępowe, aby zarządzać biblioteką.",
+  "login.username": "Login",
+  "login.password": "Hasło",
+  "login.usernamePlaceholder": "np. admin",
+  "login.passwordPlaceholder": "••••••••",
+  "login.submit": "Zaloguj",
+  "login.cancel": "Anuluj",
+  "login.error": "Nieprawidłowy login lub hasło.",
+  "login.captchaRequired": "Proszę potwierdzić, że nie jesteś robotem.",
+  "login.credentialsRequired": "Podaj login i hasło.",
+  "about.description.label": "Opis",
+  "about.description.intro": "System wspomagający badania naukowe z zakresu:",
+  "about.description.item1": "xt-hipergrafy jako 1-exact hypergraphs (przypadek r = 1 klasy r-exact) w dekompozycji systemów sterowania opisanych sieciami Petriego,",
+  "about.description.item2": "(max,+) algebra i SFC,",
+  "about.description.item3": "systemy energoelektryczne.",
+  "about.tech.label": "Technologie",
+  "about.tech.value": "PHP · JavaScript · WebGL · HTML5 Canvas",
+  "about.license.label": "Licencja",
+  "about.license.value": "Wszelkie prawa zastrzeżone",
+  "about.disclaimer.label": "Ważne",
+  "about.disclaimer.value": "System znajduje się w fazie rozwojowej. Prezentowane wyniki mają charakter eksperymentalny i mogą zawierać nieścisłości. Autorzy nie ponoszą odpowiedzialności za skutki decyzji podjętych na ich podstawie.",
+  "api.csrfInvalid": "Nieprawidłowy token CSRF. Odśwież stronę.",
+  "api.libraryDataDirectoryCreateFailed": "Nie można utworzyć katalogu danych bibliotek.",
+  "api.dataDirectoryCreateFailed": "Nie można utworzyć katalogu danych.",
+  "api.documentationSaveFailed": "Nie można zapisać dokumentacji.",
+  "api.libraryIdInvalid": "Nieprawidłowe ID biblioteki.",
+  "api.libraryNotFound": "Biblioteka nie istnieje.",
+  "api.jsonInvalid": "Błędny format JSON.",
+  "api.accessDirectoryCreateFailed": "Nie można utworzyć katalogu danych dostępowych.",
+  "api.metricsJsonEncodeFailed": "Nie można zakodować metryk do JSON.",
+  "api.metricsSaveFailed": "Nie można zapisać pliku metryk.",
+  "api.csvReadFailed": "Nie można odczytać pliku CSV: {file}",
+  "api.authenticationRequired": "Wymagane logowanie.",
+  "api.libraryFilesDirectoryCreateFailed": "Nie można utworzyć katalogu plików biblioteki.",
+  "api.researchDirectoryCreateFailed": "Nie można utworzyć katalogu eksperymentów.",
+  "api.researchIdInvalid": "Nieprawidłowe ID eksperymentu.",
+  "api.researchNotFound": "Eksperyment nie istnieje.",
+  "api.researchReadFailed": "Nie można odczytać eksperymentu.",
+  "api.researchFormatInvalid": "Nieprawidłowy format eksperymentu.",
+  "api.researchSaveFailed": "Nie można zapisać eksperymentu.",
+  "api.actionRequired": "Brak parametru action.",
+  "api.methodPostOnly": "Dozwolona metoda: POST",
+  "api.loginRateLimited": "Zbyt wiele prób logowania. Spróbuj ponownie za kilka minut.",
+  "api.captchaFailed": "Weryfikacja CAPTCHA nie powiodła się.",
+  "api.credentialsInvalid": "Nieprawidłowy login lub hasło.",
+  "api.researchDataRequired": "Brak danych eksperymentu.",
+  "api.researchTooLarge": "Eksperyment przekracza limit 3 MB.",
+  "api.researchJsonInvalid": "Nieprawidłowy JSON eksperymentu.",
+  "api.researchObjectRequired": "Eksperyment musi być obiektem JSON.",
+  "api.researchDeleteFailed": "Nie można usunąć eksperymentu.",
+  "api.authorIdRequired": "Brak identyfikatora autora.",
+  "api.libraryCreateFailed": "Nie można utworzyć biblioteki.",
+  "api.libraryNameRequired": "Nazwa biblioteki nie może być pusta.",
+  "api.libraryIdRequired": "Brak library_id.",
+  "api.pnhFileRequired": "Nie przekazano pliku PNH.",
+  "api.uploadFailed": "Błąd uploadu pliku (kod {code}).",
+  "api.uploadSizeInvalid": "Plik musi mieć rozmiar od 1 B do 5 MB.",
+  "api.uploadExtensionInvalid": "Dozwolone są wyłącznie pliki .pnh.",
+  "api.uploadSaveFailed": "Nie udało się zapisać pliku na serwerze.",
+  "api.fileNameInvalid": "Nieprawidłowa nazwa pliku.",
+  "api.fileNotFound": "Plik nie istnieje.",
+  "api.fileReadFailed": "Nie udało się odczytać pliku.",
+  "api.documentationDataRequired": "Brak danych dokumentacji.",
+  "api.documentationJsonInvalid": "Nieprawidłowy JSON dokumentacji.",
+  "api.documentationObjectRequired": "Dokumentacja musi być obiektem JSON.",
+  "api.actionUnknown": "Nieznana akcja API.",
+  "api.serverError": "Wystąpił wewnętrzny błąd serwera.",
+  "api.scholarUrlMissing": "[{id}] Brak URL Google Scholar; pominięto.",
+  "api.scholarFetching": "[{id}] Pobieranie z Google Scholar (user={userId})...",
+  "api.scholarUpdated": "[{id}] OK; artykuły: {articles}, cytowania: {citations}, h-index: {hIndex}, i10-index: {i10Index}",
+  "api.scholarFetchFailed": "[{id}] Nie udało się pobrać danych. Zachowano poprzednie wartości.",
+  "api.metricsSaved": "Zapisano metryki.",
+  "api.libraryDefaultName": "Nowa biblioteka",
+  "export.netDataRequired": "Brak danych sieci (pole net_json).",
+  "export.jsonObjectRequired": "Dane JSON muszą być obiektem.",
+  "export.generationFailed": "Nie udało się wygenerować PNH: {message}",
+  "export.nodesArcsInvalid": "Brak poprawnej struktury nodes/arcs.",
+  "export.nodeObjectRequired": "Element nodes musi być obiektem.",
+  "export.placeTokensNegative": "Miejsce {id} ma ujemną liczbę tokenów.",
+  "export.nodeTypeUnknown": "Nieznany typ węzła: {type}",
+  "export.netEmpty": "Sieć jest pusta.",
+  "export.arcObjectRequired": "Element arcs musi być obiektem.",
+  "export.arcWeightInvalid": "Łuk {id} ma wagę < 1.",
+  "export.arcNodesMissing": "Łuk {id} wskazuje nieistniejące węzły.",
+  "export.arcBipartiteRequired": "Łuk {id} musi łączyć miejsce z tranzycją (zdefiniowano {from} -> {to}).",
+  "export.fieldRequired": "Pole \"{field}\" jest wymagane.",
+  "docs.default.description": "POOH (Power Objects of Hypergraphs) to research software do analizy i dekompozycji sieci Petriego z wykorzystaniem metod hipergrafowych. Obsługuje wyznaczanie p-inwariantów (algorytm Martineza-Silvy), redukcję do transwersali dokładnych (XT-hipergrafy ujmowane jako przypadek r = 1 hipergrafów r-exact, czyli 1-exact hypergraphs), kolorową wizualizację hipergrafów oraz graficzny edytor hipergrafu z redukcją FRA, transwersalami i sprawdzaniem XTREC, dekompozycję na podsieci automatowe, generację modelu SFC do prototypowania PLC, samodzielne modele czasowe (max,+), fuzzy exact transversal przez alpha-cut i optymalizację max E(T) oraz strukturalne generowanie reguł Takagi-Sugeno max-plus ze szkieletem raportu MPC/weryfikacji. Narzędzie skierowane jest do badań nad współbieżnymi i rekonfigurowalnymi systemami sterowania oraz prototypowania FPGA/PLC.",
+  "docs.algorithm.martinezName": "Martineza-Silvy (p-inwarianty)",
+  "docs.algorithm.martinezDescription": "Iteracyjna metoda wyznaczania minimalnych p-inwariantów z macierzy incydencji przez rozszerzanie wierszy i eliminację kolumn o przeciwnych znakach.",
+  "docs.algorithm.xtrecName": "XTREC (rozpoznawanie XT)",
+  "docs.algorithm.xtrecDescription": "Algorytm rozpoznający, czy hipergraf selekcji należy do klasy hipergrafów transwersalnych dokładnych (XT), czyli przypadku 1-exact w kierunku r-exact hypergraphs.",
+  "docs.algorithm.fraName": "FRA (redukcja dominacji)",
+  "docs.algorithm.fraDescription": "Redukuje dual hipergrafu, usuwając krawędzie dominowane i izolując wierzchołki istotne.",
+  "docs.algorithm.fuzzyName": "Generator T-S max-plus fuzzy",
+  "docs.algorithm.fuzzyDescription": "Pipeline ALPHA, który wyznacza relacje strukturalne Petri/XT oraz macierze relacji T x T, buduje lokalne modele max-plus dla komponentów SMC, opisuje ważone timed event graph cyklami krytycznymi, liczy fuzzy exact transversal przez alpha-cut z konfigurowalnymi wagami funkcji przynależności, eksportuje uporządkowane tabele mu(v,E), uruchamia tabelę alpha-sweep, optymalizuje max E(T) przy ograniczeniach rozmiaru/coupling/lambda, zapisuje wersjonowane eksperymenty i generuje reguły Takagi-Sugeno strukturalnie, bez ręcznego ich definiowania."
+  ,"header.sidebarToggle": "Pokaż lub ukryj panel nawigacji"
+  ,"header.aboutSystem": "O systemie"
+  ,"header.languageChoice": "Wybór języka"
+  ,"inspector.toggle": "Pokaż lub ukryj panel właściwości"
+  ,"nav.team": "Zespół"
+  ,"fuzzy.sourceCombinedNote": "Tryb Petri używa p-inwariantów, hipergrafu selekcji i lokalnych modeli max-plus. Tryb hipergrafu uruchamia fuzzy exact transversal / α-cut na ręcznie narysowanym hipergrafie."
+  ,"fuzzy.mappingWaiting": "Mapowanie czeka na ręczny hipergraf."
+  ,"bench.filterNoVisibleFiles": "Brak widocznych plików benchmarkowych."
+  ,"docs.panelHint": "Opis systemu, algorytmów i powiązanych publikacji. Administrator może edytować zawartość."
+  ,"docs.reload": "Odśwież"
+  ,"docs.relatedArticles": "Powiązane artykuły"
+  ,"docs.addArticle": "+ Dodaj artykuł"
+  ,"canvas.zoomControls": "Sterowanie przybliżeniem"
+  ,"canvas.lens": "Lupa (przytrzymaj Alt)"
+  ,"canvas.help": "Pomoc"
+  ,"canvas.helpTitle": "Sterowanie płótnem"
+  ,"canvas.help.nodeDragKey": "LPM na węźle"
+  ,"canvas.help.nodeDrag": "Zaznacz lub przesuń węzeł"
+  ,"canvas.help.groupDragKey": "LPM i przeciągnięcie grupy"
+  ,"canvas.help.groupDrag": "Przesuń wszystkie zaznaczone węzły"
+  ,"canvas.help.panEmptyKey": "LPM na pustym płótnie"
+  ,"canvas.help.pan": "Przesuń widok"
+  ,"canvas.help.panAlternateKey": "PPM lub ŚPM i przeciągnięcie"
+  ,"canvas.help.panAlternate": "Przesuń widok, także nad węzłem"
+  ,"canvas.help.spacePanKey": "Spacja i LPM"
+  ,"canvas.help.spacePan": "Wymuś przesuwanie z dowolnego miejsca"
+  ,"canvas.help.scroll": "Przybliż lub oddal widok"
+  ,"canvas.help.selectAll": "Zaznacz wszystko"
+  ,"canvas.help.delete": "Usuń zaznaczony element"
+  ,"canvas.help.editNodeKey": "Dwuklik na węźle"
+  ,"canvas.help.editNode": "Edytuj etykietę, tokeny lub kąt"
+  ,"canvas.help.editArcKey": "Dwuklik na łuku"
+  ,"canvas.help.editArc": "Dodaj punkt załamania"
+  ,"canvas.help.lens": "Lupa; PPM na ikonie lub Alt+Scroll zmienia powiększenie"
+  ,"canvas.help.editModes": "Tryby edycji"
+  ,"canvas.help.addPlace": "Kliknij płótno, aby dodać miejsce"
+  ,"canvas.help.addTransition": "Kliknij płótno, aby dodać tranzycję"
+  ,"canvas.help.addArc": "Kliknij źródło, a potem cel (P↔T)"
+  ,"selection.compare.shortNote": "Przed i po redukcji FRA."
+  ,"selection.compare.beforeAria": "Hipergraf selekcji przed FRA"
+  ,"selection.compare.afterAria": "Hipergraf selekcji po FRA"
+  ,"hypergraph.canvasAria": "Graficzny edytor hipergrafu"
+  ,"hypergraph.help.vertex": "Hiperwierzchołek"
+  ,"hypergraph.help.vertexAction": "Kliknij puste miejsce płótna"
+  ,"hypergraph.help.edge": "Hiperkrawędź"
+  ,"hypergraph.help.edgeAction": "Kliknij hiperwierzchołki i zatwierdź przyciskiem"
+  ,"hypergraph.help.selectAction": "Kliknij element lub przeciągnij hiperwierzchołek"
+  ,"hypergraph.help.doubleClick": "Dwuklik"
+  ,"hypergraph.help.doubleClickAction": "Zmień etykietę elementu"
+  ,"hypergraph.help.panKey": "PPM lub ŚPM"
+  ,"hypergraph.help.panAction": "Przesuń widok"
+  ,"hypergraph.help.scrollAction": "Przybliż lub oddal"
+  ,"decomposition.help.nodeDragKey": "LPM na węźle i przeciągnięcie"
+  ,"decomposition.help.nodeDrag": "Przesuń węzeł"
+  ,"decomposition.help.panEmptyKey": "LPM na pustym płótnie"
+  ,"decomposition.help.panAlternate": "Przesuń widok, także nad węzłem"
+  ,"decomposition.help.shiftPanKey": "Shift i LPM i przeciągnięcie"
+  ,"decomposition.help.shiftPan": "Wymuś przesuwanie"
+  ,"decomposition.help.transversal": "Podsieci z rozwiązania transwersalnego"
+  ,"decomposition.help.sourceKey": "Pozycje źródłowe"
+  ,"decomposition.help.source": "Węzły w pozycjach z sieci pierwotnej"
+  ,"decomposition.help.auto": "Automatyczny rozkład warstwowy"
+  ,"hypergraph.vertexTitle": "Hiperwierzchołek"
+  ,"hypergraph.edgeTitle": "Hiperkrawędź"
+  ,"hypergraph.zoomControls": "Sterowanie przybliżeniem hipergrafu"
+  ,"docs.addAlgorithm": "+ Dodaj algorytm"
+  ,"canvas.panControls": "Sterowanie widokiem"
+  ,"hypergraph.helpTitle": "Sterowanie edytorem hipergrafu"
+  ,"workspace.toolsEdit": "Panel funkcji: Edycja"
+  ,"decomposition.helpTitle": "Sterowanie widokiem dekompozycji"
+  ,"hypergraph.panControls": "Sterowanie widokiem hipergrafu"
+  ,"app.api.invalidResponse": "Nieprawidłowa odpowiedź API ({status})."
+  ,"app.api.libraryOperationFailed": "Błąd operacji biblioteki PNH."
+  ,"app.docs.noAlgorithms": "Brak algorytmów."
+  ,"app.docs.noArticles": "Brak artykułów."
+  ,"app.docs.remove": "Usuń"
+  ,"app.docs.complexity": "Złożoność"
+  ,"app.docs.title": "Tytuł"
+  ,"app.docs.loading": "Ładowanie dokumentacji..."
+  ,"app.library.defaultName": "Domyślna biblioteka"
+  ,"app.library.created": "Utworzono nową bibliotekę."
+  ,"app.library.selectFirst": "Najpierw wybierz bibliotekę."
+  ,"app.library.nameRequired": "Podaj nową nazwę biblioteki."
+  ,"app.library.renamed": "Nazwa biblioteki została zaktualizowana."
+  ,"app.library.noFilesSelected": "Nie wybrano żadnych plików."
+  ,"app.library.noPnhFiles": "Wybrane dane nie zawierają plików .pnh."
+  ,"app.library.uploadedWithSkipped": "Wgrano {uploaded} plików PNH. Pominięto {skipped} plików bez rozszerzenia .pnh."
+  ,"app.library.uploaded": "Wgrano {uploaded} plików PNH do biblioteki {library}."
+  ,"app.library.uploadFailed": "Nie udało się zapisać plików PNH."
+  ,"app.library.fileNotFound": "Nie znaleziono pliku. Wpisz pełną nazwę lub wybierz z podpowiedzi."
+  ,"app.library.createOrSelect": "Najpierw utwórz lub wybierz bibliotekę."
+  ,"app.library.fileListRefreshFailed": "Nie udało się odświeżyć listy plików."
+  ,"app.library.createFailed": "Nie udało się utworzyć biblioteki."
+  ,"app.library.renameFailed": "Nie udało się zmienić nazwy biblioteki."
+  ,"app.library.refreshFailed": "Nie udało się odświeżyć bibliotek."
+  ,"app.library.loadFailed": "Nie udało się wczytać pliku PNH z biblioteki."
+  ,"app.petri.arcBipartiteRequired": "Łuk może łączyć tylko miejsce z tranzycją lub tranzycję z miejscem."
+  ,"app.petri.arcDuplicate": "Taki łuk już istnieje."
+  ,"app.sim.transitionRequired": "Zaznacz tranzycję, którą chcesz odpalić."
+  ,"app.sim.selectedNotTransition": "Zaznaczony element nie jest tranzycją."
+  ,"app.cancel.pinvariant": "Obliczanie p-inwariantów zostało przerwane przez użytkownika."
+  ,"app.cancel.pinvariantOutput": "Obliczenia p-inwariantów przerwano."
+  ,"app.cancel.selectionTransversal": "Wyznaczanie hipergrafu selekcji (transwersale) zostało przerwane przez użytkownika."
+  ,"app.cancel.selectionXtrec": "Wyznaczanie hipergrafu selekcji (XTREC) zostało przerwane przez użytkownika."
+  ,"app.cancel.hypergraphXtrec": "Sprawdzanie XT dla narysowanego hipergrafu zostało przerwane przez użytkownika."
+  ,"app.cancel.generator": "Generowanie sieci zostało przerwane przez użytkownika."
+  ,"app.cancel.benchmark": "Benchmarki zostały przerwane przez użytkownika."
+  ,"app.cancel.sfc": "Operacja SFC została przerwana przez użytkownika."
+  ,"app.core.missing": "Brak funkcji {name} modułu core {module}. Odśwież aplikację lub sprawdź ładowanie {path}."
+  ,"app.selection.stepOneRequired": "Najpierw uruchom krok (1), aby narysować hipergraf selekcji. Krok (2) sprawdza XTREC."
+  ,"app.selection.drawnWithoutXtrec": "Narysowano hipergraf selekcji bez wyniku XTREC. Uruchom krok (2), aby sprawdzić klasę XT."
+  ,"app.selection.fraRemoved": "Usunięto przez FRA: hiperkrawędzie={edges}, hiperwierzchołki={vertices}."
+  ,"app.selection.comparison": "Porównanie hipergrafu selekcji: przed FRA {before}, po FRA {after}."
+  ,"app.selection.drawn": "Narysowano hipergraf selekcji {variant}. {xtrec}. Transwersale do podświetlenia: {count}."
+  ,"app.selection.drawFailed": "Nie udało się narysować hipergrafu selekcji."
+  ,"app.selection.compareFailed": "Nie udało się porównać hipergrafu selekcji przed i po FRA."
+  ,"app.selection.beforeFra": "przed FRA"
+  ,"app.selection.afterFra": "po FRA"
+  ,"app.selection.variantMissing": "Brak danych hipergrafu selekcji {variant}."
+  ,"app.hypergraph.workerUnsupported": "Ta przeglądarka nie obsługuje Web Worker wymaganego przez XTREC."
+  ,"app.hypergraph.descriptionInvalid": "Nieprawidłowy opis hipergrafu."
+  ,"app.hypergraph.manualXtrecFailed": "Błąd XTREC dla ręcznego hipergrafu."
+  ,"app.hypergraph.manualXtrecResult": "XTREC={result} dla ręcznego hipergrafu."
+  ,"app.worker.xtrecFailed": "Błąd Workera XTREC: {message}"
+  ,"app.worker.xtrecFailedGeneric": "Błąd Workera XTREC."
+  ,"app.worker.transversalFailed": "Błąd Workera transwersali: {message}"
+  ,"app.worker.transversalFailedGeneric": "Błąd Workera transwersali."
+  ,"app.worker.pinvariantFailed": "Błąd Workera p-inwariantów: {message}"
+  ,"app.worker.pinvariantFailedGeneric": "Błąd Workera p-inwariantów."
+  ,"app.worker.sfcFailed": "Błąd Workera SFC: {message}"
+  ,"app.worker.sfcFailedGeneric": "Błąd Workera SFC."
+  ,"app.worker.generatorFailed": "Błąd Workera generatora: {message}"
+  ,"app.worker.generatorFailedGeneric": "Błąd Workera generatora."
+  ,"app.hypergraph.structuralCheckFailed": "Nie udało się sprawdzić warunków XT."
+  ,"app.hypergraph.structuralRefreshFailed": "Nie udało się odświeżyć warunków XT."
+  ,"app.hypergraph.xtrecRunFailed": "Nie udało się uruchomić XTREC."
+  ,"app.hypergraph.classificationComplete": "Klasyfikacja hipergrafu zakończona."
+  ,"app.hypergraph.classificationFailed": "Nie udało się wykonać klasyfikacji hipergrafu."
+  ,"app.hypergraph.cExactFound": "Wyznaczono spektrum c-exact: poziomy={levels}, rozwiązania={solutions}."
+  ,"app.hypergraph.cExactNone": "Nie znaleziono podzbiorów c-exact."
+  ,"app.hypergraph.cExactFailed": "Nie udało się wyznaczyć spektrum c-exact."
+  ,"app.hypergraph.rExactFailed": "Nie udało się sprawdzić r-exact."
+  ,"app.hypergraph.modeVertexHint": "Kliknij puste miejsce płótna, aby dodać hiperwierzchołek."
+  ,"app.hypergraph.modeEdgeHint": "Klikaj hiperwierzchołki hiperkrawędzi, a potem użyj przycisku Dodaj hiperkrawędź."
+  ,"app.hypergraph.vertexAdded": "Dodano hiperwierzchołek {label}."
+  ,"app.hypergraph.edgeSelectionRequired": "Wybierz co najmniej jeden hiperwierzchołek hiperkrawędzi."
+  ,"app.hypergraph.edgeAdded": "Dodano hiperkrawędź {label}."
+  ,"app.hypergraph.editOriginalRequired": "Wróć do oryginału, aby edytować hipergraf."
+  ,"app.hypergraph.vertexRemoved": "Usunięto hiperwierzchołek {label}."
+  ,"app.hypergraph.edgeRemoved": "Usunięto hiperkrawędź {label}."
+  ,"app.hypergraph.deleteSelectionRequired": "Nie zaznaczono elementu do usunięcia."
+  ,"app.hypergraph.alreadyEmpty": "Hipergraf jest już pusty."
+  ,"app.hypergraph.clearConfirm": "Wyczyścić cały hipergraf?"
+  ,"app.hypergraph.vertexLabelPrompt": "Etykieta hiperwierzchołka:"
+  ,"app.hypergraph.edgeLabelPrompt": "Etykieta hiperkrawędzi:"
+  ,"app.hypergraph.labelRequired": "Etykieta nie może być pusta."
+  ,"app.hypergraph.vertexLabelDuplicate": "Taka etykieta hiperwierzchołka już istnieje."
+  ,"app.hypergraph.edgeLabelDuplicate": "Taka etykieta hiperkrawędzi już istnieje."
+  ,"app.hypergraph.fraInputRequired": "Dodaj hiperwierzchołki i hiperkrawędzie przed redukcją FRA."
+  ,"app.hypergraph.fraApplied": "Zastosowano redukcję FRA i narysowano zredukowany hipergraf."
+  ,"app.hypergraph.fraRequired": "Najpierw uruchom redukcję FRA."
+  ,"app.hypergraph.transversalsComputed": "Wyznaczono transwersale: minimalne={minimal}, dokładne={exact}."
+  ,"app.hypergraph.exactFound": "Znaleziono transwersale dokładne: {count}. Wybierz wariant z listy."
+  ,"app.hypergraph.exactNone": "Nie znaleziono transwersali dokładnej."
+  ,"app.hypergraph.transversalFailed": "Nie udało się wyznaczyć transwersali."
+  ,"app.hypergraph.xtrecInputRequired": "Dodaj hiperwierzchołki i hiperkrawędzie przed XTREC."
+  ,"app.hypergraph.xtrecProgress": "Trwa obliczanie XTREC dla hipergrafu ({source}, {acceleration}). Możesz przerwać obliczenia."
+  ,"app.hypergraph.xtrecFailed": "Błąd XTREC dla hipergrafu."
+  ,"app.hypergraph.xtrecCancelledBeforeStart": "Sprawdzanie XT anulowano przed uruchomieniem."
+  ,"app.hypergraph.xtrecRunning": "Trwają obliczenia XTREC ({acceleration}, hipergraf {source})..."
+  ,"app.hypergraph.xtrecDialogTitle": "Sprawdzanie klasy XT (XTREC)"
+  ,"app.hypergraph.xtrecProgressShort": "Trwają obliczenia XTREC..."
+  ,"app.hypergraph.xtrecResultForSource": "XTREC={result} dla hipergrafu {source}."
+  ,"app.hypergraph.highlightHidden": "Ukryto podświetlenie transwersali."
+  ,"app.hypergraph.edgePendingCount": "Wybrano hiperwierzchołków do hiperkrawędzi: {count}."
+  ,"app.sfc.pinvariantsRequired": "Brak wyniku p-inwariantów. Najpierw uruchom Martinez-Silva."
+  ,"app.sfc.actionUnsupported": "Nieobsługiwana akcja modułu SFC."
+  ,"app.sfc.computationFailed": "Błąd obliczeń modułu SFC."
+  ,"app.sfc.generated": "Model SFC został wygenerowany."
+  ,"app.sfc.validationMismatch": "Walidacja zakończona: wykryto {count} rozbieżności."
+  ,"app.sfc.validationOk": "Walidacja zakończona: model SFC zgodny ze śladem PN."
+  ,"app.sfc.maxPlusComplete": "Analiza (max,+) zakończona."
+  ,"app.sfc.workerUnsupported": "Ta przeglądarka nie obsługuje Web Worker wymaganego przez SFC."
+  ,"app.sfc.buildProgress": "Trwa synteza modelu SFC i generator PLCopen XML. Możesz przerwać obliczenia."
+  ,"app.sfc.modelRequired": "Brak modelu SFC. Najpierw uruchom syntezę."
+  ,"app.sfc.validationStarted": "Uruchomiono walidację śladu PN ↔ SFC..."
+  ,"app.sfc.validationProgress": "Trwa walidacja śladu PN ↔ SFC. Możesz przerwać obliczenia."
+  ,"app.sfc.maxPlusStarted": "Uruchomiono analizę czasową (max,+)..."
+  ,"app.sfc.maxPlusProgress": "Trwa wyznaczanie modelu czasowego max-plus. Możesz przerwać obliczenia."
+  ,"app.sfc.tiaExported": "Wyeksportowano pakiet TIA ({count} plików)."
+  ,"app.transversal.workerUnsupported": "Ta przeglądarka nie obsługuje Web Worker wymaganego przez transwersale."
+  ,"app.transversal.computationFailed": "Błąd obliczeń transwersali."
+  ,"app.xtrec.computationFailed": "Błąd podczas sprawdzania klasy XT (XTREC)."
+  ,"app.selection.inputMissing": "Brak danych wejściowych hipergrafu selekcji."
+  ,"app.selection.xtrecCompleteStartingTransversal": "XTREC zakończony. Uruchamianie transwersali ({strategy})..."
+  ,"app.selection.completeWithCover": "Wyznaczanie hipergrafu selekcji zakończone. XTREC={xtrec}, transwersala {coverType} |D|={size}."
+  ,"app.selection.completeNoCover": "Wyznaczanie hipergrafu selekcji zakończone. XTREC={xtrec}, brak pokrycia."
+  ,"app.selection.transversalAfterXtrecFailed": "XTREC zakończony, ale transwersale zgłosiły błąd: {message}"
+  ,"app.selection.computeFailed": "Nie udało się wyznaczyć hipergrafu selekcji."
+  ,"app.pinvariant.computationFailed": "Błąd obliczeń Martinez-Silva."
+  ,"app.pnh.parseFailed": "Nie udało się sparsować PNH."
+  ,"app.pnh.jsonLoadFailed": "Nie udało się wczytać pliku JSON."
+  ,"app.pnh.importUnknownError": "Nieznany błąd importu."
+  ,"app.pnh.loadFailed": "Nie udało się wczytać pliku PNH: {message}"
+  ,"app.data.formatInvalid": "Nieprawidłowy format danych."
+  ,"app.data.nodeIdRequired": "Każdy węzeł musi mieć id."
+  ,"app.data.nodeIdDuplicate": "Duplikat id węzła: {id}"
+  ,"app.data.arcIdRequired": "Każdy łuk musi mieć id."
+  ,"app.data.arcIdDuplicate": "Duplikat id łuku: {id}"
+  ,"app.data.arcNodesMissing": "Łuk {id} wskazuje nieistniejące węzły."
+  ,"app.data.arcBipartiteRequired": "Łuk {id} musi łączyć miejsce z tranzycją."
+  ,"app.auth.statusFailed": "Nie udało się zweryfikować stanu logowania."
+  ,"app.init.researchRunsFailed": "Nie udało się załadować rejestru eksperymentów."
+  ,"app.init.librariesFailed": "Nie udało się załadować bibliotek PNH."
+  ,"app.init.libraryFilesFailed": "Nie udało się odświeżyć listy plików biblioteki."
+  ,"app.init.failed": "Błąd inicjalizacji aplikacji."
+  ,"app.benchmark.sampleNoModels": "Nie udało się dobrać próby, ponieważ profil nie zawiera poprawnych modeli PNH."
+  ,"app.benchmark.sampleSelected": "Wybrano próbę reprezentatywną: {selected}/{parseable} poprawnych modeli; pominięto błędne wejścia={skipped}."
+  ,"app.benchmark.sampleRequired": "Najpierw dobierz próbę reprezentatywną z profilu biblioteki."
+  ,"app.benchmark.sampleStarting": "Uruchamianie próby reprezentatywnej CPU vs WebGPU: {count} plików."
+  ,"app.benchmark.profileSummary": "Pliki={files}, poprawne={valid}, błędy={errors}, suma |P|={places}, suma |T|={transitions}, suma łuków={arcs}."
+  ,"app.benchmark.arcs": "Łuki"
+  ,"app.benchmark.density": "Gęstość"
+  ,"app.benchmark.skippedInputs": " Pominięte błędne wejścia PNH: {files}."
+  ,"app.benchmark.representativeTitle": "Próba reprezentatywna CPU/WebGPU"
+  ,"app.benchmark.selectionReason": "Powód wyboru"
+  ,"app.benchmark.noPnhFiles": "Brak plików PNH"
+  ,"app.benchmark.noFilteredFiles": "Brak plików dla filtra"
+  ,"app.benchmark.sampleSuffix": " [próba]"
+  ,"app.benchmark.filterStatus": "Widoczne pliki: {visible}/{total}{filter}{limit}{sample}. Benchmark lub profil użyje zaznaczonych plików albo widocznego zakresu."
+  ,"app.benchmark.samplePart": ", próba={count}"
+  ,"app.benchmark.libraryRequired": "Najpierw wybierz bibliotekę PNH."
+  ,"app.benchmark.profileFilesMissing": "Brak plików PNH do profilowania."
+  ,"app.benchmark.profileStarted": "Profilowanie zakresu: {count} plików."
+  ,"app.benchmark.profileProgress": "Trwa szybkie profilowanie plików PNH bez uruchamiania ciężkich algorytmów."
+  ,"app.benchmark.pnhLoadFailed": "Nie udało się wczytać pliku PNH."
+  ,"app.benchmark.profileCancelled": "Profilowanie zostało przerwane."
+  ,"app.benchmark.profileComplete": "Profilowanie zakończone: {count} plików."
+  ,"app.benchmark.profilePreparing": "Przygotowanie profilu biblioteki..."
+  ,"app.benchmark.profileDialogTitle": "Profilowanie biblioteki PNH"
+  ,"app.benchmark.profileJob": "Profil {index}/{total}: {file}"
+  ,"app.benchmark.invalidNet": "Benchmark nie zawiera poprawnej sieci (brak miejsc lub tranzycji)."
+  ,"app.benchmark.structuralProgress": "sprawdzanie warunków XT R1-R6"
+  ,"app.benchmark.cancelling": "Przerywanie benchmarków..."
+  ,"app.benchmark.filesMissing": "Brak plików PNH do benchmarku."
+  ,"app.benchmark.started": "Uruchomiono benchmarki: plików={files}, powtórzeń={repetitions}, MS={ms}, XTREC={xtrec}."
+  ,"app.benchmark.preparing": "Przygotowanie danych benchmarkowych..."
+  ,"app.benchmark.dialogTitle": "Benchmarki dekompozycji"
+  ,"app.benchmark.emptyPnh": "Plik PNH jest pusty."
+  ,"app.benchmark.xtConditionsPhase": "Warunki XT"
+  ,"app.benchmark.progress": "Trwa wykonywanie benchmarków. Możesz przerwać obliczenia."
+  ,"app.benchmark.fileLoadFailed": "Nie udało się wczytać pliku benchmarkowego."
+  ,"app.benchmark.fileError": "Błąd pliku {file}: {message}"
+  ,"app.benchmark.jobLabel": "Benchmark {index}/{total}: {file}, MS={ms}, XTREC={xtrec}, powtórzenie {repetition}/{repetitions}"
+  ,"app.benchmark.jobComplete": "Zakończono {label}."
+  ,"app.benchmark.unknownError": "Nieznany błąd obliczeń benchmarku."
+  ,"app.benchmark.jobError": "Błąd {label}: {message}"
+  ,"app.benchmark.cancelled": "Benchmarki zostały przerwane."
+  ,"app.benchmark.complete": "Benchmarki zakończone."
+  ,"app.benchmark.csvMissing": "Brak wyników do eksportu CSV."
+  ,"app.benchmark.csvExported": "Wyeksportowano wyniki benchmarków do CSV."
+  ,"app.benchmark.latexMissing": "Brak wyników do eksportu LaTeX."
+  ,"app.benchmark.latexGenerated": "Wygenerowano tabelę LaTeX."
+  ,"app.benchmark.profileCsvMissing": "Brak profilu biblioteki do eksportu CSV."
+  ,"app.benchmark.profileCsvExported": "Wyeksportowano profil biblioteki do CSV."
+  ,"app.benchmark.table.okTitle": "Liczba poprawnych uruchomień podzielona przez liczbę wszystkich powtórzeń benchmarku."
+  ,"app.benchmark.table.invariantsTitle": "Liczba p-inwariantów wyznaczonych dla tego benchmarku."
+  ,"app.benchmark.table.time": "Czas [ms]"
+  ,"app.benchmark.table.timeTitle": "Sekcja czasów: mediana z poprawnych uruchomień w milisekundach."
+  ,"app.benchmark.table.operations": "Liczba obliczeń"
+  ,"app.benchmark.table.operationsTitle": "Sekcja liczników obliczeń: średnia z poprawnych uruchomień."
+  ,"app.benchmark.table.msAcceleration": "MS akcel."
+  ,"app.benchmark.table.msAccelerationTitle": "Silnik Martinez-Silva: żądany i użyty tryb oraz przyspieszenie względem CPU."
+  ,"app.benchmark.table.xtrecAcceleration": "XTREC akcel."
+  ,"app.benchmark.table.xtrecAccelerationTitle": "Silnik XTREC: żądany i użyty tryb oraz przyspieszenie względem CPU."
+  ,"app.benchmark.table.xtConditions": "Warunki XT"
+  ,"app.benchmark.table.xtConditionsTitle": "Statusy warunków strukturalnych XT z raportu R1-R6."
+  ,"app.benchmark.table.error": "Błąd"
+  ,"app.benchmark.table.errorTitle": "Komunikat ostatniego błędu benchmarku, jeśli wystąpił."
+  ,"app.benchmark.table.benchmarkTitle": "Nazwa pliku benchmarkowego (modelu PNH)."
+  ,"app.benchmark.table.placesTitle": "Liczba miejsc w analizowanej sieci Petriego."
+  ,"app.benchmark.table.transitionsTitle": "Liczba tranzycji w analizowanej sieci Petriego."
+  ,"app.benchmark.table.xtTitle": "Wynik klasyfikacji XT z XTREC: TAK/NIE/MIX."
+  ,"app.benchmark.table.msTimeTitle": "MS [ms]: mediana czasu obliczania p-inwariantów metodą Martinez-Silva."
+  ,"app.benchmark.table.transposeTimeTitle": "Tr [ms]: mediana czasu transpozycji macierzy podsieci użytej do budowy dualu."
+  ,"app.benchmark.table.fraTimeTitle": "FRA [ms]: mediana czasu redukcji FRA dla istotnych wierzchołków i dominacji."
+  ,"app.benchmark.table.hypergraphTimeTitle": "Hsel [ms]: mediana łącznego czasu wyznaczania hipergrafu selekcji (Tr + FRA)."
+  ,"app.benchmark.table.xtrecTimeTitle": "XTREC [ms]: mediana czasu testu przynależności hipergrafu selekcji do klasy XT."
+  ,"app.benchmark.table.msOpsTitle": "Ops MS: średnia liczba operacji Martinez-Silva (iloczyny skalarne i kombinacje)."
+  ,"app.benchmark.table.fraOpsTitle": "Ops Tr+FRA: średnia liczba operacji transpozycji i redukcji FRA."
+  ,"app.benchmark.table.xtrecOpsTitle": "Ops XTREC: średnia łączna liczba operacji XTREC."
+  ,"app.benchmark.table.requestedTitle": "Żądany silnik obliczeniowy."
+  ,"app.benchmark.table.usedTitle": "Silnik obliczeniowy faktycznie użyty."
+  ,"app.benchmark.table.speedupTitle": "Przyspieszenie względem mediany CPU dla tego samego pliku."
+  ,"app.benchmark.table.certificateTitle": "Cert: czy spełniono certyfikat wystarczający warunków XT."
+  ,"app.benchmark.table.r4Title": "R4: lokalna niezależność oceniona przez XTREC."
+  ,"app.hypergraph.cExactLimit": "Lista rozwiązań c-exact została ograniczona limitem raportowym."
+  ,"app.hypergraph.source": "Źródło: {source}"
+  ,"app.hypergraph.sourceSelection": "hipergraf selekcji"
+  ,"app.hypergraph.sourceManual": "hipergraf ręczny lub graficzny"
+  ,"app.hypergraph.rules": "Reguły"
+  ,"app.hypergraph.sufficientRule": "Spełniony jest warunek wystarczający: {rules}."
+  ,"app.hypergraph.noCertificate": "Nie znaleziono pełnego certyfikatu wystarczającego; sprawdź reguły oznaczone jako NIE lub WARN oraz wynik XTREC."
+  ,"app.hypergraph.structuralLibraryMissing": "Biblioteka warunków XT nie została załadowana."
+  ,"app.hypergraph.structuralTitle": "Warunki XT z artykułu"
+  ,"app.hypergraph.structuralConclusion": "Wniosek: {conclusion}{rules}"
+  ,"app.hypergraph.certificate": "CERTYFIKAT"
+  ,"app.hypergraph.noFullCertificate": "brak pełnego certyfikatu"
+  ,"app.hypergraph.supportSource": "Źródło nośników: {source}"
+  ,"app.hypergraph.componentPlaces": "miejsca komponentów"
+  ,"app.hypergraph.incidenceSupports": "incydencje hipergrafu"
+  ,"app.hypergraph.structuralInputRequired": "Dodaj hiperwierzchołki i hiperkrawędzie przed sprawdzeniem warunków XT."
+  ,"app.hypergraph.r4Hint": " R4 wymaga osobnego uruchomienia Sprawdź XT."
+  ,"app.hypergraph.noCertificateForSource": "Warunki XT: brak pełnego certyfikatu dla hipergrafu ({source})."
+  ,"app.hypergraph.certificateForSource": "Warunki XT: znaleziono certyfikat dla hipergrafu ({source})."
+  ,"app.hypergraph.original": "oryginalny"
+  ,"app.hypergraph.reduced": "zredukowany"
+  ,"app.hypergraph.notRun": "nie uruchomiono"
+  ,"app.hypergraph.conclusion": "Wniosek"
+  ,"app.hypergraph.notFound": "nie znaleziono"
+  ,"app.hypergraph.graphicalSummary": "Hipergraf graficzny: |V|={vertices}, |E|={edges}"
+  ,"app.hypergraph.structuralFlag": "warunkiXT={value}"
+  ,"app.hypergraph.method": "metoda"
+  ,"app.hypergraph.recommendation": "rekomendacja"
+  ,"app.hypergraph.allNotRun": "Wszystkie transwersale: nie uruchomiono."
+  ,"app.hypergraph.classificationNotRun": "Klasyfikacja hipergrafu: nie uruchomiono."
+  ,"app.hypergraph.classificationTitle": "Klasyfikacja hipergrafu"
+  ,"app.hypergraph.structureMetrics": "|V|={vertices}, |E|={edges}, ranga={rank}, min|E|={minEdge}"
+  ,"app.hypergraph.uniform": "Jednorodny: {value}"
+  ,"app.hypergraph.linear": "Liniowy: {value}"
+  ,"app.hypergraph.simple": "Prosty: {value}"
+  ,"app.hypergraph.clutter": "Clutter/Sperner: {value}"
+  ,"app.hypergraph.regular": "Regularny: {value}"
+  ,"app.hypergraph.cExactLine": "c-exact: {value}"
+  ,"app.hypergraph.cSpectrumNotRun": "Spektrum c-exact: nie uruchomiono."
+  ,"app.hypergraph.cSpectrumTitle": "Spektrum c-exact"
+  ,"app.hypergraph.cSelected": "Wybrane c-exact: c={c}, {set}"
+  ,"app.hypergraph.yes": "TAK"
+  ,"app.hypergraph.no": "NIE"
+  ,"app.hypergraph.rNotRun": "r-exact: nie uruchomiono."
+  ,"app.hypergraph.rResult": "r-exact: {value} dla r={r}"
+  ,"app.hypergraph.rRequired": "Minimalne wymagane r*: {r}"
+  ,"app.hypergraph.xtAsOneExact": "XT jako 1-exact: {value}"
+  ,"app.hypergraph.uniformValue": "{value}-jednorodny"
+  ,"app.hypergraph.linearFailure": "NIE (max |Ei∩Ej|={value})"
+  ,"app.hypergraph.simpleFailure": "NIE (duplikaty={value})"
+  ,"app.hypergraph.regularValue": "{value}-regularny"
+  ,"app.hypergraph.regularFailure": "NIE (stopnie {min}..{max})"
+  ,"app.hypergraph.xtOneExactValue": "XT/1-exact: {value}"
+  ,"app.hypergraph.verticesLine": "Hiperwierzchołki: [{labels}]"
+  ,"app.hypergraph.edgesLine": "Hiperkrawędzie: [{labels}]"
+  ,"app.hypergraph.transversal": "Transwersala"
+  ,"app.hypergraph.exactTransversal": "Transwersala dokładna"
+  ,"app.hypergraph.allMinimal": "Wszystkie transwersale minimalne: {count}{truncated}"
+  ,"app.hypergraph.allExact": "Wszystkie transwersale dokładne: {count}{truncated}"
+  ,"app.hypergraph.truncated": " (wynik ucięty)"
+  ,"app.hypergraph.searchSpace": "Przestrzeń przeszukiwania: {checked}/{total} podzbiorów."
+  ,"app.hypergraph.cLevels": "Poziomy c: {levels}, rozwiązania={solutions}"
+  ,"app.hypergraph.example": ", przykład={value}"
+  ,"app.hypergraph.note": "Uwaga: {note}"
+  ,"app.hypergraph.partial": " (wynik częściowy)"
+  ,"app.hypergraph.rSummary": "r*={rStar}, próg r={threshold}: {verdict}; {xt}; minimalne T={minimal}{warning}."
+  ,"app.hypergraph.rCounts": "Minimalne transwersale: {minimal}, transwersale dokładne: {exact}"
+  ,"app.hypergraph.rTruncated": "Uwaga: enumeracja transwersal została ograniczona limitem, więc r* może być niedoszacowane."
+  ,"app.hypergraph.rWitness": "Świadek r*: T{index}=[{labels}], {edge}, |T∩E|={hits}"
+  ,"app.hypergraph.rDistribution": "Rozkład max |T∩E| po minimalnych transwersalach: {distribution}"
+  ,"app.fuzzy.safeAssumption": "Pierwszy etap zakłada sieci bezpieczne lub częściowo weryfikowane przez ograniczony graf osiągalności."
+  ,"app.fuzzy.lambdaAssumption": "λ(A_T) jest raportowane jako maksimum lokalnych wartości max-plus dla wybranej konfiguracji."
+  ,"app.fuzzy.membershipAssumption": "Funkcja przynależności μ(v,E) jest liczona automatycznie z metryk strukturalnych i czasowych."
+  ,"app.fuzzy.pinvariantsRequired": "Najpierw uruchom krok (1): p-inwarianty."
+  ,"app.fuzzy.selectionRequired": "Najpierw uruchom krok (2): hipergraf selekcji i transwersale."
+  ,"app.fuzzy.smcRequired": "Brak poprawnych podsieci SMC. Uruchom kroki (1) i (2)."
+  ,"app.fuzzy.mappingSummary": "Mapowania Petri/SMC: {mapped}/{total} hiperwierzchołków."
+  ,"app.fuzzy.mappingRequired": "Brak lokalnych A_i: ręczny hipergraf wymaga mapowania hiperwierzchołków na komponenty Petri/SMC przed analizą max-plus."
+  ,"app.fuzzy.consequentsGenerated": "Konsekwenty max-plus wygenerowane z mapowania hiperwierzchołków do Petri/SMC"
+  ,"app.fuzzy.candidatesPendingMapping": "Kandydaci fuzzy exact wygenerowani z graficznego hipergrafu; konsekwent max-plus oczekuje na mapowanie Petri/SMC"
+  ,"app.fuzzy.visualizationManualOnly": "Wizualizacja T* działa dla źródła: ręcznie narysowany hipergraf exact."
+  ,"app.fuzzy.noSolution": "Brak T* lub α-cut do pokazania na hipergrafie. Sprawdź ograniczenia q, δ i poziom α."
+  ,"app.fuzzy.solutionShown": "Pokazano wynik fuzzy exact: {result}."
+  ,"app.fuzzy.solutionShownOnHypergraph": "Pokazano wynik fuzzy exact na hipergrafie: {result}."
+  ,"app.fuzzy.noFeasible": ", brak dopuszczalnej T*"
+  ,"app.fuzzy.buildExactLabel": "Zbudowano szkic fuzzy exact/T-S"
+  ,"app.fuzzy.buildMaxPlusLabel": "Zbudowano T-S max-plus"
+  ,"app.fuzzy.buildSummary": "{label}: reguł={rules}, α={alpha}{optimizer}{sweep}, eksperyment={experiment}."
+  ,"app.fuzzy.buildFailed": "Nie udało się zbudować modułu (max,+) / Fuzzy."
+  ,"app.fuzzy.registryHeader": "ID | α | E* | |T*| | coupling | M+ | λT | α-exact | reguły | zapis"
+  ,"app.fuzzy.registryTitle": "Eksperymenty badawcze"
+  ,"app.fuzzy.loadReport": "Wczytaj raport"
+  ,"app.fuzzy.delete": "Usuń"
+  ,"app.fuzzy.savedCount": "Eksperymenty zapisane: {count}."
+  ,"app.fuzzy.saving": "Zapisywanie eksperymentu..."
+  ,"app.fuzzy.saved": "Zapisano eksperyment: {id}."
+  ,"app.fuzzy.loading": "Wczytywanie eksperymentu..."
+  ,"app.fuzzy.loaded": "Wczytano zapisany eksperyment: {id}."
+  ,"app.fuzzy.active": "Aktywny eksperyment: {id}."
+  ,"app.fuzzy.deleting": "Usuwanie eksperymentu..."
+  ,"app.fuzzy.registryLoading": "Ładowanie rejestru eksperymentów..."
+  ,"app.fuzzy.registryRefreshFailed": "Nie udało się odświeżyć rejestru eksperymentów."
+  ,"app.fuzzy.saveFailed": "Nie udało się zapisać eksperymentu."
+  ,"app.fuzzy.formatInvalid": "Nieprawidłowy format eksperymentu."
+  ,"app.fuzzy.loadFailed": "Nie udało się wczytać eksperymentu."
+  ,"app.fuzzy.deleteConfirm": "Usunąć zapisany eksperyment?"
+  ,"app.fuzzy.deleted": "Usunięto eksperyment."
+  ,"app.fuzzy.deleteFailed": "Nie udało się usunąć eksperymentu."
+  ,"app.decomposition.hyperedges": "Hiperkrawędzie"
+  ,"app.decomposition.exactTransversal": "transwersala dokładna"
+  ,"app.decomposition.sourceLayout": "pozycje źródłowe"
+  ,"app.decomposition.automataSubnet": "Podsieć automatowa"
+  ,"app.decomposition.manualHypergraph": "Hipergraf ręczny"
+  ,"app.decomposition.hypergraphFallback": "Hipergraf"
+  ,"app.decomposition.selectionHypergraph": "hipergraf selekcji"
+  ,"app.decomposition.pinvariants": "p-inwarianty"
+  ,"app.decomposition.sfcSource": "model SFC/(max,+)"
+  ,"app.decomposition.sfcStatus": "Wizualizacja podsieci SFC"
+  ,"app.decomposition.maxPlusStatus": "Wizualizacja podsieci (max,+)"
+  ,"app.analysis.analysis": "Analiza"
+  ,"app.analysis.modelRequired": "Potrzebne są miejsca i tranzycje, aby wykonać analizę."
+  ,"app.analysis.safeness": "Bezpieczeństwo (1-safe)"
+  ,"app.analysis.safe": "W każdym osiągalnym stanie liczba tokenów w miejscu nie przekracza 1."
+  ,"app.analysis.unsafe": "Wykryto miejsca z więcej niż jednym tokenem (maksimum: {maximum})."
+  ,"app.analysis.liveness": "Żywotność"
+  ,"app.analysis.partialLiveness": "Przestrzeń stanów została ucięta po {limit} stanach. Wynik częściowy: {result}."
+  ,"app.analysis.allAppearLive": "wszystkie badane tranzycje wyglądają na żywe"
+  ,"app.analysis.someNotLive": "co najmniej jedna tranzycja nie jest żywa"
+  ,"app.analysis.live": "Każda tranzycja jest potencjalnie odpalalna z każdego stanu osiągalnego."
+  ,"app.analysis.notLive": "Istnieje tranzycja, której nie da się już ożywić w części stanów."
+  ,"app.analysis.noDeadlocks": "Brak stanów deadlock w badanym grafie osiągalności."
+  ,"app.analysis.deadlocks": "Wykryto {count} stanów deadlock."
+  ,"app.analysis.states": "{count} stanów{truncated}."
+  ,"app.analysis.limitReached": " (limit osiągnięty)"
+  ,"app.analysis.searchedStates": "Przeszukane stany"
+  ,"app.generator.running": "Generowanie..."
+  ,"app.generator.generate": "Generuj sieć"
+  ,"app.generator.attempt": "próba {attempt}/{total}"
+  ,"app.generator.backgroundError": "Błąd generatora w tle."
+  ,"app.generator.live": "żywa"
+  ,"app.generator.notLive": "nieżywa"
+  ,"app.generator.safe": "bezpieczna"
+  ,"app.generator.unsafe": "niebezpieczna"
+  ,"app.generator.adaptive": "Adaptacyjna komponentowa"
+  ,"app.generator.backgroundProgress": "Generowanie w tle: {details}"
+  ,"app.generator.dialogProgress": "Generowanie sieci: {details}"
+  ,"app.generator.complete": "Generacja zakończona [{method}] (P={places}, T={transitions}, próba {attempt}, {live}, {safe})."
+  ,"app.generator.loaded": "Generacja zakończona w tle. Sieć została wczytana do edytora."
+  ,"app.generator.workerRequired": "Generator wymaga Web Workerów. Uruchom aplikację w pełnym środowisku przeglądarkowym lub użyj nowszej przeglądarki."
+  ,"app.generator.progress": "Trwa generowanie modelu. Możesz przerwać obliczenia."
+  ,"app.generator.started": "Uruchomiono generowanie w tle..."
+  ,"app.generator.dialogTitle": "Generowanie sieci Petriego"
+  ,"app.generator.searchWorkerRequired": "Worker niedostępny. Przeszukiwanie wymaga Web Workera."
+  ,"app.generator.searchProgress": "Trwa przeszukiwanie zakresów. Możesz przerwać obliczenia."
+  ,"app.generator.searchStarted": "Uruchomiono przeszukiwanie (limit {seconds}s, P[{minPlaces}-{maxPlaces}] T[{minTransitions}-{maxTransitions}])..."
+  ,"app.pinvariant.progress": "Obliczenia p-inwariantów: {message}"
+  ,"app.pinvariant.failed": "Błąd podczas obliczania p-inwariantów."
+  ,"app.pinvariant.complete": "Obliczanie p-inwariantów zakończone."
+  ,"app.pinvariant.selectionReady": "Wynik Martinez-Silva gotowy. Możesz wyznaczyć hipergraf selekcji."
+  ,"app.pinvariant.sfcStale": "Model SFC wymaga ponownej syntezy dla nowych inwariantów."
+  ,"app.pinvariant.modelRequired": "Do obliczeń p-inwariantów potrzebne są miejsca i tranzycje."
+  ,"app.pinvariant.workerUnsupported": "Ta przeglądarka nie obsługuje Web Worker."
+  ,"app.pinvariant.selectionWaiting": "Krok (2) czeka na zakończenie kroku (1)."
+  ,"app.pinvariant.dialogTitle": "Wyznaczanie p-inwariantów"
+  ,"app.pinvariant.stage": "Etap {stage}/{total}"
+  ,"app.pinvariant.webgpuAvailable": "Wykryto WebGPU. Uruchomić obliczenia Martinez-Silva z akceleracją GPU?"
+  ,"app.pinvariant.webgpuUnavailable": "WebGPU nie jest dostępne. Uruchomić obliczenia bez akceleracji na CPU?"
+  ,"app.pinvariant.selectionWaitingValid": "Krok (2) czeka na poprawny wynik kroku (1)."
+  ,"app.pinvariant.sfcMissing": "Brak aktualnego modelu SFC."
+  ,"app.pinvariant.sfcStaleGeneric": "Model SFC wymaga ponownej syntezy."
+  ,"app.pinvariant.startCancelled": "Uruchomienie kroku (1) anulowano."
+  ,"app.pinvariant.started": "Uruchomiono krok (1): p-inwarianty ({acceleration})..."
+  ,"app.pinvariant.inProgress": "Krok (1) jest w toku..."
+  ,"app.pinvariant.dialogProgress": "Trwają obliczenia metodą Martinez-Silva ({acceleration}). Możesz je przerwać."
+  ,"app.action.sfcBuildFailed": "Nie udało się zbudować modelu SFC."
+  ,"app.action.sfcValidateFailed": "Nie udało się zwalidować modelu SFC."
+  ,"app.action.maxPlusFailed": "Nie udało się wykonać analizy (max,+)."
+  ,"app.action.benchmarkFailed": "Nie udało się uruchomić benchmarków."
+  ,"app.action.profileFailed": "Nie udało się uruchomić profilowania biblioteki."
+  ,"app.action.sampleSelectFailed": "Nie udało się dobrać próby reprezentatywnej."
+  ,"app.action.sampleRunFailed": "Nie udało się uruchomić próby reprezentatywnej."
+  ,"app.action.generateFailed": "Nie udało się wygenerować sieci."
+  ,"app.action.searchFailed": "Nie udało się przeszukać."
+  ,"app.net.clearConfirm": "Wyczyścić aktualną sieć?"
+  ,"app.common.processing": "Przetwarzanie danych..."
+  ,"app.docs.abstract": "Streszczenie"
+  ,"app.docs.loginRequired": "Wymagane logowanie."
+  ,"app.docs.saving": "Zapisywanie..."
+  ,"app.docs.saved": "Zapisano."
+  ,"app.library.noneSelected": "Brak wybranej biblioteki."
+  ,"app.library.uploading": "Wgrywanie {index}/{total}: {file}"
+  ,"app.library.selectFile": "Wybierz plik PNH do wczytania."
+  ,"app.library.loaded": "Wczytano plik {file} z biblioteki {library}."
+  ,"app.sim.transitionInactive": "Tranzycja nie jest aktywna."
+  ,"app.sim.noEnabled": "Brak aktywnych tranzycji."
+  ,"app.selection.cancelledOutput": "Obliczenia XTREC przerwano."
+  ,"app.selection.checkingXt": "Sprawdzanie XT..."
+  ,"app.selection.xtStatus": "XT/1-exact={value} ({acceleration})"
+  ,"app.selection.xtUnchecked": "XT/1-exact=nie sprawdzono"
+  ,"app.selection.originalMissing": "Brak danych hipergrafu selekcji przed FRA."
+  ,"app.selection.reducedMissing": "Brak danych hipergrafu selekcji po FRA."
+  ,"app.hypergraph.manualRunning": "Rysowanie hipergrafu i sprawdzanie XTREC..."
+  ,"app.hypergraph.cleared": "Wyczyszczono hipergraf."
+  ,"app.hypergraph.minimalFound": "Znaleziono transwersale minimalne: {count}. Wybierz wariant z listy."
+  ,"app.hypergraph.minimalNone": "Nie znaleziono transwersali."
+  ,"app.sfc.cancelledOutput": "Obliczenia SFC przerwano."
+  ,"app.sfc.recommendedRequired": "Brak rekomendowanego pokrycia. Najpierw uruchom Wyznacz hipergraf selekcji."
+  ,"app.sfc.noAutomataSubnets": "Nie znaleziono poprawnych podsieci automatowych do syntezy SFC."
+  ,"app.sfc.validationModelRequired": "Brak modelu SFC do walidacji. Najpierw zbuduj model."
+  ,"app.sfc.maxPlusModelRequired": "Brak modelu SFC do analizy (max,+). Najpierw zbuduj model."
+  ,"app.sfc.processing": "Przetwarzanie danych SFC..."
+  ,"app.sfc.buildStarted": "Uruchomiono budowanie modelu SFC..."
+  ,"app.sfc.buildInProgress": "Budowanie modelu SFC w toku..."
+  ,"app.sfc.maxPlusAfterSynthesis": "Analiza (max,+) zostanie wyznaczona po syntezie modelu."
+  ,"app.sfc.noMaxPlusModel": "Brak modelu SFC do analizy (max,+)."
+  ,"app.sfc.noPlcopen": "Brak danych PLCopen XML do eksportu."
+  ,"app.sfc.noCoordinatorSt": "Brak kodu ST koordynatora do eksportu."
+  ,"app.sfc.noIdeModel": "Brak modelu SFC do eksportu mapowania IDE."
+  ,"app.sfc.noCodesysPackage": "Brak pakietu CODESYS. Przebuduj model SFC."
+  ,"app.sfc.codesysExported": "Wyeksportowano mapowanie CODESYS (POU/program/task)."
+  ,"app.sfc.noTiaPackage": "Brak pakietu TIA. Przebuduj model SFC."
+  ,"app.transversal.running": "{phase}: obliczenia w toku"
+  ,"app.transversal.status": "Transwersale: {message}"
+  ,"app.transversal.dialogTitle": "Wyznaczanie transwersali"
+  ,"app.transversal.dialogProgress": "Trwa wyznaczanie transwersali ({strategy}). Możesz przerwać obliczenia."
+  ,"app.xtrec.webgpuPrompt": "Wykryto WebGPU. Uruchomić XTREC z akceleracją WebGPU?"
+  ,"app.xtrec.webglPrompt": "Wykryto WebGL. Uruchomić XTREC z akceleracją WebGL?"
+  ,"app.xtrec.cpuPrompt": "WebGPU/WebGL nie jest dostępne albo zostało pominięte. Uruchomić XTREC bez akceleracji na CPU?"
+  ,"app.selection.stepResultRequired": "Krok (2) wymaga wyniku kroku (1). Najpierw wyznacz p-inwarianty."
+  ,"app.selection.sfcStale": "Model SFC wymaga ponownej syntezy po zmianie pokrycia."
+  ,"app.selection.building": "(2) Wyznaczanie hipergrafu selekcji..."
+  ,"app.selection.xtrecCancelled": "Wyznaczono hipergraf selekcji. Uruchomienie XTREC anulowano."
+  ,"app.selection.xtrecStarted": "(2) Wyznaczono hipergraf selekcji. Uruchomiono XTREC ({acceleration})..."
+  ,"app.selection.xtrecDialogProgress": "Trwa obliczanie XTREC ({acceleration}). Możesz przerwać obliczenia."
+  ,"app.benchmark.profileRequired": "Najpierw uruchom profilowanie zakresu biblioteki PNH."
+  ,"worker.generator.coreMissing": "Brak modułu generator core. Sprawdź ładowanie src/core/generator.js."
+  ,"worker.generator.searchUnknown": "Nieznany błąd przeszukiwania."
+  ,"worker.generator.unknown": "Nieznany błąd generatora."
+  ,"worker.sfc.coreMissing": "Brak modułu SFC core. Sprawdź ładowanie src/core/sfc.js."
+  ,"worker.sfc.unknown": "Nieznany błąd modułu SFC."
+  ,"worker.transversal.noCover": "Nie znaleziono rozwiązania pokrycia dla zadanych metod."
+  ,"worker.transversal.backtrackingFound": "Backtracking regular: znaleziono pokrycie (|D|={size})."
+  ,"worker.transversal.backtrackingNotFound": "Backtracking regular: nie znaleziono pokrycia."
+  ,"worker.transversal.greedyFound": "Greedy: znaleziono pokrycie (|D|={size})."
+  ,"worker.transversal.greedyNotFound": "Greedy: nie znaleziono pokrycia."
+  ,"worker.transversal.unknown": "Nieznany błąd obliczeń transwersali."
+  ,"worker.pinvariant.webgpuInitUnknown": "Nieznany błąd inicjalizacji WebGPU."
+  ,"worker.pinvariant.completeSuffix": ", pełne={count}{coverage}"
+  ,"worker.pinvariant.coverageYes": ", pokrycie=TAK"
+  ,"worker.pinvariant.stageProgress": "etap {stage}/{total}, tryb={mode}, kandydaci={candidates}{suffix}"
+  ,"worker.pinvariant.running": "Obliczenia p-inwariantów w toku..."
+  ,"worker.pinvariant.unknown": "Nieznany błąd obliczania p-inwariantów."
+  ,"worker.xtrec.webglInitUnknown": "Nieznany błąd inicjalizacji WebGL."
+  ,"worker.xtrec.webglUnknown": "Nieznany błąd WebGL."
+  ,"worker.xtrec.webglFallback": "WebGL przerwano ({reason}). Dalsze obliczenia na CPU."
+  ,"worker.xtrec.running": "XTREC: obliczenia w toku..."
+  ,"worker.xtrec.unknown": "Nieznany błąd XTREC."
+  ,"core.transversal.recommendExactXt": "Hipergraf jest XT; wybrano najmniejszą znalezioną transwersalę dokładną."
+  ,"core.transversal.recommendExactNonXt": "Hipergraf nie jest XT, ale istnieje transwersala dokładna."
+  ,"core.transversal.recommendRegular": "Brak transwersali dokładnej; wybrano najmniejszą znalezioną transwersalę zwykłą."
+  ,"core.transversal.noCover": "Nie znaleziono rozwiązania pokrycia dla zadanych metod."
+  ,"core.transversal.noVertices": "Hipergraf selekcji nie zawiera wierzchołków (kolumn), więc nie można wyznaczyć transwersali."
+  ,"core.transversal.emptyEdge": "Hipergraf selekcji zawiera pustą krawędź ({edge}), więc pokrycie nie istnieje."
+  ,"core.transversal.startXtr": "Uruchamianie XTR..."
+  ,"core.transversal.startDlx": "Uruchamianie DLX (Algorithm X)..."
+  ,"core.transversal.startExactBacktracking": "Uruchamianie backtrackingu dokładnego..."
+  ,"core.transversal.startRegularBacktracking": "Uruchamianie backtrackingu dla transwersali zwykłej..."
+  ,"core.transversal.startGreedy": "Uruchamianie greedy dla transwersali zwykłej..."
+  ,"core.transversal.exactFound": "{method}: znaleziono transwersalę dokładną (|D|={size})."
+  ,"core.transversal.exactNotFound": "{method}: nie znaleziono transwersali dokładnej."
+  ,"core.transversal.coverFound": "{method}: znaleziono pokrycie (|D|={size})."
+  ,"core.transversal.coverNotFound": "{method}: nie znaleziono pokrycia."
+  ,"core.pinvariant.webgpuUnavailable": "WebGPU nie jest dostępne w tym środowisku."
+  ,"core.pinvariant.webgpuAdapterMissing": "Nie znaleziono adaptera WebGPU."
+  ,"core.pinvariant.webgpuMatrixTooLarge": "Macierz jest zbyt duża dla bezpiecznej akceleracji WebGPU."
+  ,"core.pinvariant.webgpuFallback": "WebGPU jest niedostępne ({reason}). Przełączono na CPU."
+  ,"core.xtrec.shaderCreate": "Nie można utworzyć obiektu shadera WebGL."
+  ,"core.xtrec.shaderCompile": "Błąd kompilacji shadera WebGL: {details}"
+  ,"core.xtrec.programCreate": "Nie można utworzyć programu WebGL."
+  ,"core.xtrec.programLink": "Błąd linkowania programu WebGL: {details}"
+  ,"core.xtrec.offscreenUnavailable": "OffscreenCanvas nie jest dostępny."
+  ,"core.xtrec.contextCreate": "Nie można utworzyć kontekstu WebGL."
+  ,"core.xtrec.textureLimitRead": "Nie można odczytać limitu rozmiaru tekstury WebGL."
+  ,"core.xtrec.textureCreate": "Nie można utworzyć tekstury WebGL."
+  ,"core.xtrec.outputTextureCreate": "Nie można utworzyć tekstury wyjściowej WebGL."
+  ,"core.xtrec.vertexTextureLimit": "Liczba wierzchołków przekracza limit tekstury WebGL."
+  ,"core.xtrec.framebufferIncomplete": "Framebuffer WebGL jest niekompletny."
+  ,"core.xtrec.webgpuUnavailable": "WebGPU nie jest dostępne w tym środowisku."
+  ,"core.xtrec.webgpuAdapterMissing": "Nie znaleziono adaptera WebGPU."
+  ,"core.xtrec.webgpuBatchTooLarge": "Paczka przecięć jest zbyt duża dla bezpiecznej akceleracji WebGPU."
+  ,"core.xtrec.webgpuInitUnknown": "Nieznany błąd inicjalizacji WebGPU."
+  ,"core.xtrec.accelerationUnknown": "Nieznany błąd akceleracji."
+  ,"core.xtrec.webgpuToWebgl": "WebGPU jest niedostępne ({webgpu}). Przełączono na WebGL."
+  ,"core.xtrec.webgpuWebglToCpu": "WebGPU jest niedostępne ({webgpu}). WebGL jest niedostępne ({webgl}). Przełączono na CPU."
+  ,"core.xtrec.webglToCpu": "WebGL jest niedostępne ({reason}). Przełączono na CPU."
+  ,"core.xtrec.accelerationFallback": "{engine} przerwano ({reason}). Dalsze obliczenia na CPU."
+  ,"core.xtrec.noDetails": "Brak szczegółów."
+  ,"structural.r1.title": "Rozłączność modułów"
+  ,"structural.r1.disjointPlaces": "Kandydackie komponenty mają parami rozłączne zbiory miejsc."
+  ,"structural.r1.trivial": "Każda hiperkrawędź ma co najwyżej jeden hiperwierzchołek, więc hipergraf jest trywialnie 1-exact."
+  ,"structural.r1.overlap": "Wykryto nakładanie komponentów; ten certyfikat XT nie wystarcza."
+  ,"structural.r2.title": "Dominujące miejsca wspólne / redukcja duplikatów"
+  ,"structural.r2.reduced": "FRA usunęła {edges} hiperkrawędzi i {vertices} hiperwierzchołków; aktualny hipergraf nie ma duplikatów."
+  ,"structural.r2.noDuplicates": "Nie wykryto identycznych hiperkrawędzi."
+  ,"structural.r2.duplicates": "Istnieją identyczne hiperkrawędzie; przed certyfikacją XT należy zastosować redukcję duplikatów/FRA."
+  ,"structural.r3.title": "Unikanie częściowych przecięć / laminarność"
+  ,"structural.r3.notLaminar": "{source} nie jest laminarna: istnieją częściowe przecięcia bez zawierania."
+  ,"structural.r3.dominated": "{source} jest laminarna, ale w aktualnym hipergrafie pozostały zdominowane hiperwierzchołki."
+  ,"structural.r3.pass": "{source} jest laminarna i nie pozostawia zdominowanych hiperwierzchołków."
+  ,"structural.source.componentPlaces": "Rodzina miejsc komponentów"
+  ,"structural.source.incidence": "Rodzina nośników incydencji hiperwierzchołków"
+  ,"structural.r4.title": "Lokalna niezależność alternatyw / XTREC"
+  ,"structural.r4.noResult": "Brak wyniku XTREC. Uruchom test XT, aby sprawdzić lokalny warunek niezależności."
+  ,"structural.r4.result": "XTREC={value}, tryb {mode}, testy {checks}."
+  ,"structural.r5.title": "Ograniczona krotność / las gwiazd"
+  ,"structural.r5.duplicate": "duplikat: {labels}"
+  ,"structural.r5.requirement": "Warunek wymaga prostego hipergrafu z hiperkrawędziami o rozmiarze najwyżej 2."
+  ,"structural.r5.componentNotStar": "składowa {component} nie jest gwiazdą"
+  ,"structural.r5.singletonNotCenter": "singleton {{{vertex}}} nie leży w centrum gwiazdy ani w izolowanym wierzchołku"
+  ,"structural.r5.failure": "Graf krawędzi dwuelementowych nie spełnia warunku lasu gwiazd."
+  ,"structural.r5.pass": "Hipergraf jest prosty, ma hiperkrawędzie rozmiaru najwyżej 2, a graf krawędzi dwuelementowych jest lasem gwiazd."
+  ,"structural.r6.title": "Założenia bezpieczeństwa i żywotności"
+  ,"structural.r6.manual": "Hipergraf ręczny nie zawiera modelu sieci Petriego, więc warunek sieciowy nie ma danych wejściowych."
+  ,"structural.r6.noSnapshot": "Brak snapshotu bezpieczeństwa i żywotności sieci."
+  ,"structural.r6.reachabilityIncomplete": "graf osiągalności: niepełny"
+  ,"structural.r6.reachabilityComplete": "graf osiągalności: pełny w limicie"
+  ,"structural.r6.pass": "Sieć spełnia badane założenia 1-safe/live w eksplorowanym grafie osiągalności."
+  ,"structural.r6.result": "Założenia sieciowe: safe={safe}, live={live}."
+  ,"structural.r6.states": "stany={count}/{limit}"
+  ,"core.fuzzySource.mappingMissing": "Brak mapowania hiperwierzchołka do komponentu Petri/SMC."
+  ,"core.fuzzySource.hypergraphRequired": "Najpierw narysuj hipergraf, dodając hiperwierzchołki i hiperkrawędzie."
+  ,"core.fuzzySource.incidenceMissing": "Hipergraf nie ma incydencji hiperwierzchołków z hiperkrawędziami."
+  ,"core.generator.petriCoreMissing": "Brak funkcji {name} modułu Petri analysis core w generator core."
+  ,"core.generator.xtrecCoreMissing": "Brak funkcji {name} modułu XTREC core w generator core."
+  ,"core.selection.hypergraphCoreMissing": "Biblioteka core hipergrafu nie została załadowana."
+  ,"core.selection.pinvariantsMissing": "Brak danych p-inwariantów. Najpierw uruchom Martinez-Silva."
+  ,"core.selection.noAutomataSubnets": "Brak poprawnych podsieci automatowych z jednym znacznikiem początkowym."
+  ,"core.hypergraph.edgeRequired": "Wpisz co najmniej jedną hiperkrawędź."
+  ,"core.hypergraph.noEdgesParsed": "Nie znaleziono hiperkrawędzi w opisie."
+  ,"core.hypergraph.edgeEmpty": "Hiperkrawędź {edge} nie zawiera hiperwierzchołków."
+  ,"core.hypergraph.graphRequired": "Hipergraf musi zawierać co najmniej jeden hiperwierzchołek i jedną hiperkrawędź."
+  ,"core.hypergraph.emptyEdgeNoTransversal": "Hiperkrawędź {edge} jest pusta, więc transwersala nie istnieje."
+  ,"core.hypergraph.enumerationLimit": "Wyznaczanie wszystkich transwersali jest ograniczone do {limit} hiperwierzchołków."
+  ,"core.hypergraph.cExactSkipped": "pominięto: limit 20 hiperwierzchołków"
+  ,"core.hypergraph.cExactLimit": "Analiza c-exact enumeruje podzbiory hiperwierzchołków i jest ograniczona do 20 hiperwierzchołków."
+  ,"core.hypergraph.example": ", np. {set}"
+  ,"core.hypergraph.noCExact": "brak podzbiorów c-exact"
+  ,"core.hypergraph.cExactReportLimit": "Lista rozwiązań c-exact została ograniczona; liczności poziomów pozostają pełne."
+  ,"core.hypergraph.classificationInput": "Dodaj hiperwierzchołki i hiperkrawędzie przed klasyfikacją hipergrafu."
+  ,"core.maxPlus.transversalComplete": "Globalny model A_T zbudowano na unii miejsc i tranzycji wybranej transwersali."
+  ,"core.maxPlus.transversalPartial": "Model A_T jest częściowy lub niedostępny, ponieważ część elementów T nie ma mapowania Petri/SMC."
+  ,"core.petri.pnNote": "Dwudzielna struktura miejsce/tranzycja"
+  ,"core.petri.opnNote": "Wszystkie wagi łuków są równe 1"
+  ,"core.petri.smNote": "Sieć stanowa"
+  ,"core.petri.mgNote": "Graf znakowany"
+  ,"core.petri.fcNote": "Sieć swobodnego wyboru"
+  ,"core.petri.efcNote": "Rozszerzona sieć swobodnego wyboru"
+  ,"core.fuzzyLevel.high": "wysoki"
+  ,"core.fuzzyLevel.medium": "średni"
+  ,"core.fuzzyLevel.low": "niski"
+  ,"core.takagiSugeno.mappingPending": "A_{label}: oczekuje na mapowanie Petri/SMC"
+  ,"core.sfc.noLocalTransitionsComment": "  // Brak lokalnych tranzycji do odwzorowania."
+  ,"core.sfc.maxPlusSubnetProgress": "SFC: podsieć (max,+) {index}/{total}."
+  ,"core.sfc.globalPeriod": "Globalny okres oszacowano jako max(lambda_i) dla podsieci."
+  ,"core.sfc.syncOverhead": " Uwzględniono narzut synchronizacji dla wspólnych tranzycji XT."
+  ,"core.sfc.inputRequired": "Sieć wejściowa musi zawierać miejsca i tranzycje."
+  ,"core.sfc.subnetsRequired": "Brak podsieci automatowych do syntezy SFC."
+  ,"core.sfc.building": "SFC: budowanie {count} podsieci..."
+  ,"core.sfc.subnetReady": "SFC: podsieć {index}/{total} gotowa."
+  ,"core.sfc.noLocalTransitions": "Wybrane podsieci nie zawierają lokalnych przejść, więc brak danych do syntezy SFC."
+  ,"core.sfc.strictWarning": "Profil strict wymaga sieci 1-safe; wykryto miejsca z więcej niż jednym tokenem początkowym."
+  ,"core.sfc.generatePlcopen": "SFC: generowanie ogólnego PLCopen XML..."
+  ,"core.sfc.generateCodesys": "SFC: generowanie pakietu CODESYS..."
+  ,"core.sfc.generateTia": "SFC: generowanie pakietu TIA..."
+  ,"core.sfc.timingAnalysis": "SFC: analiza czasowa (max,+)..."
+  ,"core.sfc.modelEmpty": "Model SFC jest pusty. Najpierw uruchom syntezę."
+  ,"core.sfc.validationProgress": "SFC: walidacja {step}/{total}..."
+  ,"core.sfc.maxPlusUpdate": "SFC: aktualizacja modelu (max,+)..."
+  ,"core.sfc.unknownAction": "Nieznana akcja modułu SFC."
+  ,"core.decomposition.maxPlusMissing": "Brak modułu max-plus core wymaganego przez wizualizację dekompozycji."
+  ,"core.decomposition.subnet": "Podsieć: {label}"
+  ,"core.decomposition.places": "Miejsca: [{values}]"
+  ,"core.decomposition.transitions": "Tranzycje: [{values}]"
+  ,"core.decomposition.markedPlaces": "Liczba miejsc oznaczonych: {count}"
+  ,"core.decomposition.correctSubnet": "Podsieć poprawna: {value}"
+  ,"core.decomposition.sfcSubnet": "Podsieć SFC: {label}"
+  ,"core.decomposition.initialStep": "Krok początkowy: {step}"
+  ,"core.decomposition.steps": "Kroki: [{values}]"
+  ,"core.decomposition.maxPlusSubnet": "Podsieć (max,+): {label}"
+  ,"core.decomposition.source": "Źródło: {source}"
+  ,"core.decomposition.throughput": "Przepustowość: {value}"
+  ,"core.decomposition.weightedEdges": "Krawędzie ważone: {count}"
+  ,"core.decomposition.delayPlaces": "Miejsca opóźnień: [{values}]"
+  ,"core.decomposition.criticalCycle": "Cykl krytyczny: {transitions}"
+  ,"core.decomposition.cycleMean": "Średnia cyklu: {mean}; waga={weight}; długość={length}"
+  ,"core.decomposition.cycleTruncated": "Uwaga: wyszukiwanie cykli przerwano po {count} cyklach."
+  ,"core.decomposition.noCriticalCycle": "Cykl krytyczny: brak cyklu w grafie przejść."
+  ,"core.decomposition.xtrecRunning": "XTREC: obliczenia w toku"
+  ,"core.decomposition.xtrecTrue": "TRUE (klasa XT)"
+  ,"core.decomposition.xtrecNotRun": "XTREC: nie uruchomiono"
+  ,"core.decomposition.selectionSource": "dekompozycja / hipergraf selekcji"
+  ,"core.decomposition.manualSource": "ręczny opis hipergrafu"
+  ,"core.decomposition.vertices": "Hiperwierzchołki |V|={count}: [{values}]"
+  ,"core.decomposition.hyperedges": "Hiperkrawędzie |E|={count}: [{values}]"
+  ,"core.decomposition.witness": "Świadek: {message}"
+  ,"core.decomposition.recommended": "Transwersala rekomendowana: [{values}], |D|={size}, typ={type}"
+  ,"core.benchmark.unknownError": "Nieznany błąd benchmarku."
+  ,"core.benchmark.reason.smallest": "najmniejszy poprawny model"
+  ,"core.benchmark.reason.median": "model medianowy według |P|+|T|+łuki"
+  ,"core.benchmark.reason.largest": "największy poprawny model"
+  ,"core.benchmark.reason.lowestArcDensity": "najniższa gęstość łuków"
+  ,"core.benchmark.reason.highestArcDensity": "najwyższa gęstość łuków"
+  ,"core.benchmark.reason.parserWarning": "ostrzeżenie parsera PNH"
+  ,"core.benchmark.reason.largestInitialMarking": "największe oznakowanie początkowe"
+  ,"core.benchmark.reason.transitionDominance": "dominacja tranzycji względem miejsc"
+  ,"core.benchmark.reason.placeDominance": "dominacja miejsc względem tranzycji"
+  ,"core.benchmark.reason.stratumFill": "uzupełnienie warstwy {stratum}"
+  ,"core.benchmark.reason.largestFill": "uzupełnienie największych poprawnych modeli"
+  ,"core.benchmark.reason.invalidInputControl": "kontrola błędnego wejścia PNH"
+  ,"core.benchmark.latexCaption": "Wyniki benchmarków dekompozycji i analizy XT"
+  ,"common.yes": "TAK"
+  ,"common.no": "NIE"
+  ,"common.none": "brak"
+  ,"common.notFound": "nie znaleziono"
+  ,"common.notRun": "Nie uruchomiono."
+  ,"common.built": "zbudowany"
+  ,"common.noData": "brak danych"
+  ,"common.complete": "pełny"
+  ,"common.incomplete": "niepełny"
+  ,"common.incompleteUpper": "NIEPEŁNY"
+  ,"common.completeWithinLimit": "pełny w limicie"
+  ,"export.common.info": "Info: {message}"
+  ,"export.common.warning": "Uwaga: {message}"
+  ,"export.common.witness": "Świadek: {message}"
+  ,"export.common.operations": "Operacje: {count}"
+  ,"export.common.operationsSuffix": "operacji."
+  ,"export.analysis.method": "Metoda"
+  ,"export.benchmark.defaultCaption": "Wyniki benchmarków POOH"
+  ,"export.benchmark.latexHeader": "Benchmark & Miejsca & Tranzycje & Inwarianty & XT \\\\"
+  ,"export.pinvariant.empty": "Brak wyników p-inwariantów."
+  ,"export.pinvariant.modeCoverStop": "Martinez-Silva (przerwanie po pokryciu)"
+  ,"export.pinvariant.modeFull": "Martinez-Silva (pełny)"
+  ,"export.pinvariant.modeCoverStopSentence": "Martinez-Silva (przerwanie po pokryciu)."
+  ,"export.pinvariant.modeFullSentence": "Martinez-Silva (pełny przebieg)."
+  ,"export.pinvariant.algorithm": "Algorytm: {mode}"
+  ,"export.pinvariant.acceleration": "Akceleracja: {value}"
+  ,"export.pinvariant.gpuFallback": "Akceleracja GPU: niedostępna; zastosowano fallback CPU."
+  ,"export.pinvariant.accelerationInfo": "Info akceleracji: {message}"
+  ,"export.pinvariant.dimensions": "Miejsca: {places}, Tranzycje: {transitions}"
+  ,"export.pinvariant.found": "Znalezione p-inwarianty: {count}"
+  ,"export.pinvariant.stages": "Etapy przetworzone: {processed}/{total}"
+  ,"export.pinvariant.candidateCap": "Limit kandydatów (etap/final): {stage}/{final}"
+  ,"export.pinvariant.stopCovered": "Zatrzymanie: TAK (pokrycie bazowej sieci osiągnięte)."
+  ,"export.pinvariant.stopFull": "Zatrzymanie: NIE (pełne liczenie)."
+  ,"export.pinvariant.coverage": "Pokrycie miejsc: {value}"
+  ,"export.pinvariant.coverageMissing": "Pokrycie miejsc: {value} (brak: {places})"
+  ,"export.pinvariant.trimmed": "Uwaga: kandydaci byli przycinani przez limit złożoności."
+  ,"export.pinvariant.memoryGuard": "Ochrona pamięci: AKTYWNA (ograniczono liczbę kandydatów, aby uniknąć OOM)."
+  ,"export.pinvariant.invariants": "Inwarianty:"
+  ,"export.pinvariant.row.acceleration": "Akceleracja"
+  ,"export.pinvariant.webgpuFallback": "WebGPU niedostępne; uruchomiono fallback CPU."
+  ,"export.pinvariant.row.pinvariants": "p-inwarianty"
+  ,"export.pinvariant.row.count": "Liczba inwariantów"
+  ,"export.pinvariant.row.coverage": "Pokrycie miejsc"
+  ,"export.pinvariant.baseCovered": "Bazowa sieć jest pokryta przez wyznaczone inwarianty."
+  ,"export.pinvariant.uncovered": "Brak pokrycia dla: {places}."
+  ,"export.pinvariant.unknownPlaces": "nieznane miejsca"
+  ,"export.pinvariant.row.validSubnets": "Poprawne podsieci"
+  ,"export.pinvariant.validSubnetCriterion": "{correct}/{total} (kryterium: dokładnie jedno miejsce oznaczone tokenem początkowym)."
+  ,"export.pinvariant.row.stages": "Etapy"
+  ,"export.pinvariant.stageRow": "{processed}/{total}{suffix}."
+  ,"export.pinvariant.stoppedSuffix": " (przerwano po pokryciu)"
+  ,"export.pinvariant.row.memoryGuard": "Ochrona pamięci"
+  ,"export.pinvariant.memoryGuardLimit": "Aktywna. Limit kandydatów: {stage} (final: {final})."
+  ,"export.selection.xtStatus": "XT/1-exact={value} ({acceleration})"
+  ,"export.selection.xtNotChecked": "XT/1-exact=nie sprawdzono"
+  ,"export.selection.method": "Metoda: Wyznacz Hipergraf Selekcji"
+  ,"export.selection.subnetMatrixInput": "Macierz podsieci automatowych (wejście):"
+  ,"export.selection.essentialVertices": "Istotne wierzchołki: [{values}]"
+  ,"export.selection.dualBeforeFra": "Macierz dualna przed redukcją FRA (hipergraf selekcji):"
+  ,"export.selection.dualAfterFra": "Macierz dualna po redukcji FRA (hipergraf selekcji):"
+  ,"export.selection.transpose": "Transpozycja"
+  ,"export.selection.selectionHypergraph": "Hipergraf selekcji"
+  ,"export.selection.metric": "{name}: {ms} ms, operacje={operations}"
+  ,"export.selection.fraReductions": "Redukcje FRA: cykle={cycles}, usunięte_wiersze={rows}, usunięte_kolumny={columns}"
+  ,"export.selection.xtBeforeFra": "XT/1-exact przed FRA: {status}"
+  ,"export.selection.xtAfterFra": "XT/1-exact po FRA: {status}"
+  ,"export.selection.xtrecAfterFra": "XTREC po FRA (Eiter): {status}"
+  ,"export.selection.analysisMethod": "Wyznacz Hipergraf Selekcji (dual + redukcje)."
+  ,"export.selection.row.inputSubnets": "Podsieci wejściowe"
+  ,"export.selection.inputCounts": "{subnets} podsieci, {places} miejsc."
+  ,"export.selection.row.essentialVertices": "Istotne wierzchołki"
+  ,"export.selection.noEssentialVertices": "Brak istotnych wierzchołków."
+  ,"export.selection.row.selectionHypergraph": "Hipergraf selekcji"
+  ,"export.selection.reducedMatrix": "Macierz po redukcji: {rows}x{columns}."
+  ,"export.selection.row.beforeFra": "Przed FRA"
+  ,"export.selection.row.afterFra": "Po FRA"
+  ,"export.selection.matrixAndXt": "Macierz {rows}x{columns}; {xt}."
+  ,"export.selection.noOriginalMatrix": "Brak zachowanej macierzy przed FRA."
+  ,"export.selection.row.transposeFra": "Transpozycja + FRA"
+  ,"export.selection.timingMetrics": "Transpozycja={transpose} ms, FRA={fra} ms, Hsel={selection} ms."
+  ,"export.selection.noTimingMetrics": "Brak metryk czasowych transformacji."
+  ,"export.selection.row.xtClass": "Klasa XT (XTREC)"
+  ,"export.selection.row.xtrecMode": "Tryb XTREC"
+  ,"export.selection.row.xtrecOperations": "Operacje XTREC"
+  ,"export.xtrec.true": "TRUE (klasa XT)"
+  ,"export.xtrec.false": "FALSE (nie należy do klasy XT)"
+  ,"export.xtrec.mode": "Tryb XTREC: {mode}"
+  ,"export.xtrec.checks": "Testy XTREC: {performed}/{total}"
+  ,"export.xtrec.operations": "Operacje XTREC: {total} (projekcje={projections}, testy_przecięć={intersections}, porównania_min={minComparisons})"
+  ,"export.xtrec.failureWitness": "Świadek niespełnienia: {message}"
+  ,"export.xtrec.running": "XTREC: obliczenia w toku..."
+  ,"export.xtrec.notRun": "XTREC: nie uruchomiono."
+  ,"export.xtrec.yesResult": "TAK (XTREC=TRUE)."
+  ,"export.xtrec.noResult": "NIE (XTREC=FALSE)."
+  ,"export.xtrec.missingResult": "Brak wyniku XTREC."
+  ,"export.xtrec.noOperationCounters": "Brak szczegółowych liczników operacji XTREC."
+  ,"export.xtrec.result": "XTREC: {status}"
+  ,"export.xtrec.modeRuntime": "Tryb: {mode}, czas={ms} ms"
+  ,"export.xtrec.tests": "Testy: {performed}/{total}"
+  ,"export.structural.notRun": "Warunki XT: nie uruchomiono."
+  ,"export.structural.title": "Warunki XT z artykułu"
+  ,"export.structural.conclusion": "Wniosek: {result}{rules}"
+  ,"export.structural.certificate": "CERTYFIKAT"
+  ,"export.structural.noFullCertificate": "brak pełnego certyfikatu"
+  ,"export.structural.supportSource": "Źródło nośników: {source}"
+  ,"export.structural.componentPlaces": "miejsca komponentów"
+  ,"export.structural.hypergraphIncidences": "incydencje hipergrafu"
+  ,"export.structural.error": "Warunki XT: {message}"
+  ,"export.structural.sufficientCertificate": "Certyfikat wystarczający: {rules}."
+  ,"export.structural.inspectDetails": "Brak pełnego certyfikatu; sprawdź szczegółowy raport R1-R6."
+  ,"export.structural.condition": "Warunek {id}"
+  ,"export.transversal.method.backtrackingExact": "Backtracking (dokładna)"
+  ,"export.transversal.method.backtrackingRegular": "Backtracking (zwykła)"
+  ,"export.transversal.method.fallback": "Metoda"
+  ,"export.transversal.coverageTitle": "Transwersale i pokrycie:"
+  ,"export.transversal.strategy": "Strategia: {strategy}"
+  ,"export.transversal.inputXt": "Klasa XT (wejście): {value}"
+  ,"export.transversal.runtime": "Czas transwersali: {ms} ms"
+  ,"export.transversal.exact": "dokładna"
+  ,"export.transversal.regular": "zwykła"
+  ,"export.transversal.none": "brak"
+  ,"export.transversal.exactTransversal": "transwersala dokładna"
+  ,"export.transversal.regularTransversal": "transwersala zwykła"
+  ,"export.transversal.recommendation": "Rekomendacja: {type} ({method}), |D|={size}"
+  ,"export.transversal.selectedSubnets": "Wybrane podsieci: [{values}]"
+  ,"export.transversal.noRecommendation": "Rekomendacja: nie znaleziono rozwiązania pokrycia."
+  ,"export.transversal.reason": "Uzasadnienie: {message}"
+  ,"export.transversal.running": "Transwersale: obliczenia w toku..."
+  ,"export.transversal.notRun": "Transwersale: nie uruchomiono."
+  ,"export.transversal.row.transversals": "Transwersale"
+  ,"export.transversal.computing": "Obliczenia transwersali w toku."
+  ,"export.transversal.missingResult": "Brak wyniku transwersali."
+  ,"export.transversal.row.strategy": "Strategia transwersali"
+  ,"export.transversal.strategyRuntime": "{strategy} (czas={ms} ms)."
+  ,"export.transversal.row.selectedCover": "Wybrane pokrycie"
+  ,"export.transversal.exactCapital": "Dokładna"
+  ,"export.transversal.regularCapital": "Zwykła"
+  ,"export.transversal.selectedCover": "{type} ({method}), |D|={size}, podsieci=[{subnets}]."
+  ,"export.transversal.noCover": "Nie znaleziono pokrycia."
+  ,"export.transversal.row.researchPaths": "Ścieżki badawcze"
+  ,"export.transversal.noMethods": "Brak uruchomionych metod."
+  ,"export.sfc.modelEmpty": "Brak modelu SFC."
+  ,"export.sfc.modelTitle": "Model SFC (dekompozycja -> PLC)"
+  ,"export.sfc.name": "Nazwa: {value}"
+  ,"export.sfc.profile": "Profil: {value}"
+  ,"export.sfc.synchronization": "Synchronizacja: {value}"
+  ,"export.sfc.subnets": "Podsieci SFC: {count}"
+  ,"export.sfc.sharedTransitions": "Tranzycje wspólne: {count}"
+  ,"export.sfc.coordinator": "Koordynator ST: {value}"
+  ,"export.sfc.codesysPackage": "Pakiet CODESYS: {value}"
+  ,"export.sfc.tiaPackage": "Pakiet TIA: {value}"
+  ,"export.sfc.maxPlusLambda": "(max,+) lambda global: {value}"
+  ,"export.sfc.maxPlusThroughput": "(max,+) przepustowość globalna: {value}"
+  ,"export.sfc.subnetLine": "{header}: kroki={steps}, przejścia={transitions}, start={start}"
+  ,"export.sfc.synthesisTime": "Czas syntezy: {ms} ms"
+  ,"export.sfc.synthesisOperations": "Operacje syntezy: {count}"
+  ,"export.sfc.validationEmpty": "Brak walidacji SFC."
+  ,"export.sfc.validationTitle": "Walidacja śladu PN <-> SFC"
+  ,"export.sfc.validationStatus": "Status: {value}"
+  ,"export.sfc.consistent": "ZGODNY"
+  ,"export.sfc.differences": "RÓŻNICE"
+  ,"export.sfc.stepsCompared": "Kroki porównane: {count}"
+  ,"export.sfc.stepsMismatched": "Kroki niezgodne: {count}"
+  ,"export.sfc.comparisonCoverage": "Pokrycie porównania: {value} %"
+  ,"export.sfc.averageStepTime": "Średni czas kroku: {ms} ms"
+  ,"export.sfc.sampleMismatches": "Przykładowe rozbieżności:"
+  ,"export.sfc.maxPlusEmpty": "Brak wyniku analizy (max,+)."
+  ,"export.sfc.maxPlusTitle": "Analiza czasowa (max,+)"
+  ,"export.maxPlus.stateEquation": "Równanie stanu: {equation}"
+  ,"export.maxPlus.xtModel": "Model XT: {model}"
+  ,"export.maxPlus.subnets": "Podsieci: {count}"
+  ,"export.maxPlus.globalLambda": "Lambda global: {value}"
+  ,"export.maxPlus.globalThroughput": "Przepustowość globalna (1/lambda): {value}"
+  ,"export.maxPlus.defaultPlaceDelay": "Domyślny czas miejsca: {value}"
+  ,"export.maxPlus.syncOverhead": "Narzut synchronizacji XT: {value}"
+  ,"export.maxPlus.matrixA": "   Macierz A: {rows} x {columns}"
+  ,"export.maxPlus.computationTime": "Czas obliczeń: {ms} ms"
+  ,"export.maxPlus.standaloneEmpty": "Brak samodzielnego modelu (max,+)."
+  ,"export.maxPlus.standaloneTitle": "Samodzielny model badawczy (max,+)"
+  ,"export.maxPlus.pendingMappingStatus": "Status: oczekuje na mapowanie Petri/SMC."
+  ,"export.maxPlus.manualNoMatrices": "Ręczny hipergraf nie zawiera jeszcze lokalnych macierzy A_i."
+  ,"export.maxPlus.availableNow": "Dostępne w tym kroku:"
+  ,"export.maxPlus.availableCoupling": "- coupling hiperwierzchołków z incydencji hipergrafu,"
+  ,"export.maxPlus.availableTsSketch": "- strukturalny szkic reguł T-S bez konsekwentów max-plus."
+  ,"export.maxPlus.equation": "Równanie: {equation}"
+  ,"export.maxPlus.globalTransversalTitle": "Globalny model transwersali A_T*"
+  ,"export.maxPlus.globalTransversalStatus": "Status: {status}, kompletne mapowanie={complete}, M+={mapping}"
+  ,"export.maxPlus.transversalPlaces": "Miejsca A_T*: [{values}]"
+  ,"export.maxPlus.transversalTransitions": "Tranzycje A_T*: [{values}]"
+  ,"export.maxPlus.transversalCriticalCycle": "Cykl krytyczny A_T*: {transitions}, średnia={mean}, waga={weight}"
+  ,"export.maxPlus.transversalCriticalCycleNone": "Cykl krytyczny A_T*: -"
+  ,"export.maxPlus.transversalUnmapped": "Brak mapowania w A_T*: [{values}]"
+  ,"export.maxPlus.matrixHidden": "A_T*: macierz {size}x{size} ukryta w raporcie tekstowym; jest dostępna w eksporcie JSON."
+  ,"export.maxPlus.syncReconfigOverhead": "Narzut synchronizacji/rekonfiguracji: {value}"
+  ,"export.maxPlus.mapping": "   Mapowanie: {mapping}, P=[{places}], T=[{transitions}]"
+  ,"export.maxPlus.matrixMissing": "   A: brak - {note}"
+  ,"export.maxPlus.hypervertexUnmapped": "ten hiperwierzchołek nie ma mapowania Petri/SMC."
+  ,"export.maxPlus.transitionsIndented": "   Tranzycje: [{values}]"
+  ,"export.maxPlus.criticalCycleIndented": "   Cykl krytyczny: {transitions}, średnia={mean}, waga={weight}"
+  ,"export.maxPlus.criticalCycleNoneIndented": "   Cykl krytyczny: -"
+  ,"export.maxPlus.artifactBuildTime": "Czas budowy artefaktu: {ms} ms"
+  ,"export.fuzzy.membershipEmpty": "Brak macierzy przynależności fuzzy."
+  ,"export.fuzzy.membershipTitle": "Funkcja przynależności mu(v,E)"
+  ,"export.fuzzy.weights": "Wagi: {values}"
+  ,"export.fuzzy.membershipMatrix": "Macierz przynależności i składniki:"
+  ,"export.fuzzy.pipelineEmpty": "Brak wyniku pipeline fuzzy."
+  ,"export.fuzzy.graphicPipelineTitle": "Hipergraf -> fuzzy exact -> alpha-cut XT -> szkic T-S"
+  ,"export.fuzzy.petriPipelineTitle": "Petri -> XT -> SMC -> max-plus -> T-S"
+  ,"export.fuzzy.artifactVersion": "Wersja artefaktu: {version}"
+  ,"export.fuzzy.experiment": "Eksperyment: {id}"
+  ,"export.fuzzy.exactSource": "Źródło exact: {source}"
+  ,"export.fuzzy.manualHypergraph": "ręcznie narysowany hipergraf"
+  ,"export.fuzzy.smcSource": "Źródło SMC: {source}"
+  ,"export.fuzzy.recommendedExactTransversal": "rekomendowana transwersala dokładna"
+  ,"export.fuzzy.allValidSubnets": "wszystkie poprawne podsieci"
+  ,"export.fuzzy.alphaCut": "alpha-cut: {alpha}, krok sweep={step}"
+  ,"export.fuzzy.constraints": "Ograniczenia: |T|<={components}, coupling<={coupling}, lambda<={lambda}"
+  ,"export.fuzzy.membershipModel": "Model przynależności: {values}"
+  ,"export.fuzzy.candidatesRules": "Kandydaci/reguły: {subnets}/{rules}"
+  ,"export.fuzzy.subnetsRules": "Podsieci/reguły: {subnets}/{rules}"
+  ,"export.fuzzy.hypergraphSummary": "Hipergraf: |V|={vertices}, |E|={edges}, incydencje={incidences}, współwystępowanie={coMembership}"
+  ,"export.fuzzy.maxPlusPartial": "Warstwa max-plus: dostępna częściowo; mapowania Petri/SMC={mapped}/{total}, kandydaci SMC={candidates}."
+  ,"export.fuzzy.maxPlusPendingMapping": "Warstwa max-plus: oczekuje na mapowanie hiperwierzchołków do komponentów Petri/SMC."
+  ,"export.fuzzy.relationsSummary": "Relacje: konflikty={conflicts}, sekwencyjność={sequential}, współbieżność={concurrent}"
+  ,"export.fuzzy.reachabilitySummary": "Graf osiągalności: stany={states}, safe={safe}, {completeness}"
+  ,"export.fuzzy.alphaSweep": "alpha-sweep: poziomy={levels}, alpha-exact={exact}, wykonalne={feasible}, maks. exact alpha={maxExact}, najlepsze alpha={best}"
+  ,"export.fuzzy.alphaCutTransversal": "Transwersala dokładna alpha-cut:"
+  ,"export.fuzzy.violationsSuffix": ", naruszenia=[{values}]"
+  ,"export.fuzzy.optimizationTitle": "Optymalizacja max E(T):"
+  ,"export.fuzzy.optimizationMethod": "Metoda: {method}{kind}"
+  ,"export.fuzzy.exactParenthetical": " (dokładna)"
+  ,"export.fuzzy.heuristicParenthetical": " (heurystyczna)"
+  ,"export.fuzzy.maxPlusUnmapped": "Brak mapowania max-plus dla: [{values}]"
+  ,"export.fuzzy.evaluatedFeasible": "Sprawdzone/wykonalne: {evaluated}/{feasible}"
+  ,"export.fuzzy.noFeasibleConfiguration": "Brak konfiguracji spełniającej ograniczenia; sprawdzone={evaluated}."
+  ,"export.fuzzy.latex.rulesCaption": "Strukturalnie generowane reguły Takagi--Sugeno max-plus"
+  ,"export.fuzzy.latex.rulesHeader": "Reguła & SMC & Wsp. & Konfl. & $\\lambda$ & $\\mu$ \\\\"
+  ,"export.fuzzy.latex.weightsCaption": "Wagi funkcji przynależności"
+  ,"export.fuzzy.latex.alphaCaption": "Porównanie poziomów fuzzy exact transversal dla"
+  ,"export.fuzzy.latex.optimizationCaption": "Wynik optymalizacji fuzzy exact transversal"
+  ,"export.relations.directedSuffix": " (wiersz -> kolumna)"
+  ,"export.relations.empty": "Brak relacji strukturalnych Petri/XT."
+  ,"export.relations.manualTitle": "Relacje exact z ręcznie narysowanego hipergrafu"
+  ,"export.hypergraph.vertices": "Hiperwierzchołki: {values}"
+  ,"export.hypergraph.edges": "Hiperkrawędzie: {values}"
+  ,"export.relations.incidenceSummary": "Incydencje: {incidences}, współwystępowanie par: {coMembership}"
+  ,"export.relations.sourceTitle": "Źródło relacji dla mu(v,E):"
+  ,"export.relations.coMembershipSource": "Q współwystępowanie: dwa hiperwierzchołki należą do co najmniej jednej wspólnej hiperkrawędzi."
+  ,"export.relations.neutralPetriProfile": "C i S nie są wyprowadzane bez modelu Petri; przyjęto neutralny profil konfliktu i sekwencyjności."
+  ,"export.relations.coMembershipMatrix": "Q - współwystępowanie hiperwierzchołków"
+  ,"export.relations.petriTitle": "Relacje strukturalne Petri/XT"
+  ,"export.relations.transitions": "Tranzycje: {values}"
+  ,"export.relations.reachability": "Graf osiągalności: stany={states}/{limit}, safe={safe}, kompletność={completeness}"
+  ,"export.relations.counts": "Liczności: C={conflict}, Q={concurrency}, S={sequential}"
+  ,"export.relations.conflictSource": "C konflikt: {source}"
+  ,"export.relations.concurrencySource": "Q współbieżność: {source}"
+  ,"export.relations.sequentialSource": "S sekwencyjność: {source}"
+  ,"export.relations.incompleteWarning": "Uwaga: Q może być niepełne, ponieważ graf osiągalności osiągnął limit stanów."
+  ,"export.relations.conflictMatrix": "C - konflikt"
+  ,"export.relations.concurrencyMatrix": "Q - współbieżność"
+  ,"export.relations.sequentialMatrix": "S - sekwencyjność"
+  ,"export.ts.empty": "Brak reguł Takagi-Sugeno."
+  ,"export.ts.title": "Reguły Takagi-Sugeno generowane strukturalnie"
+  ,"export.ts.ruleActivation": "{id} [{label}], aktywacja={value}"
+  ,"export.ts.antecedent": "IF współbieżność={concurrency} AND konflikt={conflict} AND coupling={coupling} AND rekonfiguracja={reconfiguration} AND czas={timing}"
+  ,"export.ts.source": "Źródło: {source}"
+  ,"export.ts.mpcVerification": "MPC / weryfikacja"
+  ,"export.ts.supervisorStatus": "Status: {status}, horyzont={horizon}"
+  ,"export.ts.configuration": "Konfiguracja: [{values}]"
+  ,"export.ts.activeRules": "Reguły aktywne: [{values}]"
+  ,"export.ts.noTransversalMapping": "Mapowanie max-plus: brak T* do oceny."
+  ,"export.ts.maxPlusMapping": "Mapowanie max-plus: pokrycie={coverage}, kompletne={complete}, wymagania={requirements}, brak=[{missing}]"
+  ,"export.ts.verificationMapping": "Weryfikacja: exact-hypergraph={exact}, max-plus=mapowanie Petri/SMC, timing={timing}"
+  ,"export.ts.verification": "Weryfikacja: osiągalność={reachability}, safe={safe}, timing={timing}"
+  ,"export.hypergraph.analysisEmpty": "Brak wyników analizy hipergrafu."
+  ,"export.hypergraph.manualTitle": "Ręczny hipergraf"
+  ,"export.hypergraph.verticesCount": "Hiperwierzchołki |V|={count}: [{values}]"
+  ,"export.hypergraph.edgesCount": "Hiperkrawędzie |E|={count}: [{values}]"
+  ,"export.hypergraph.allTransversalsNotRun": "Wszystkie transwersale: nie uruchomiono."
+  ,"export.hypergraph.allMinimal": "Wszystkie transwersale minimalne: {count}{suffix}"
+  ,"export.hypergraph.allExact": "Wszystkie transwersale dokładne: {count}{suffix}"
+  ,"export.hypergraph.truncatedSuffix": " (wynik ucięty)"
+  ,"export.hypergraph.searchSpace": "Przestrzeń przeszukiwania: {checked}/{total} podzbiorów."
+  ,"export.hypergraph.classificationNotRun": "Klasyfikacja hipergrafu: nie uruchomiono."
+  ,"export.hypergraph.classificationTitle": "Klasyfikacja hipergrafu"
+  ,"export.hypergraph.dimensions": "|V|={vertices}, |E|={edges}, ranga={rank}, min|E|={minEdge}"
+  ,"export.hypergraph.uniform": "Jednorodny: {value}"
+  ,"export.hypergraph.uniformYes": "TAK ({value}-uniform)"
+  ,"export.hypergraph.linear": "Liniowy: {value}"
+  ,"export.hypergraph.linearNo": "NIE (max |Ei przecięcie Ej|={value})"
+  ,"export.hypergraph.simple": "Prosty: {value}"
+  ,"export.hypergraph.simpleNo": "NIE (duplikaty={count})"
+  ,"export.hypergraph.clutter": "Clutter/Sperner: {value}"
+  ,"export.hypergraph.regular": "Regularny: {value}"
+  ,"export.hypergraph.regularYes": "TAK ({value}-regular)"
+  ,"export.hypergraph.regularNo": "NIE (stopnie {min}..{max})"
+  ,"export.hypergraph.cExactNotRun": "Spektrum c-exact: nie uruchomiono."
+  ,"export.hypergraph.cExactTitle": "Spektrum c-exact"
+  ,"export.hypergraph.cExactLevels": "Poziomy c: {levels}, rozwiązania={solutions}"
+  ,"export.hypergraph.exampleSuffix": ", przykład={value}"
+  ,"export.hypergraph.selectedCExact": "Wybrane c-exact: c={c}, {value}"
+  ,"export.hypergraph.cExactReportLimit": "Lista rozwiązań c-exact została ograniczona limitem raportowym."
+  ,"export.hypergraph.rExactNotRun": "r-exact: nie uruchomiono."
+  ,"export.hypergraph.rExactResult": "r-exact: {value} dla r={r}"
+  ,"export.hypergraph.rStar": "Minimalne wymagane r*: {value}"
+  ,"export.hypergraph.xtAsOneExact": "XT jako 1-exact: {value}"
+  ,"export.hypergraph.transversalCounts": "Minimalne transwersale: {minimal}, transwersale dokładne: {exact}"
+  ,"export.hypergraph.rExactTruncated": "Uwaga: enumeracja transwersal została ograniczona limitem MVP, więc r* może być niedoszacowane."
+  ,"export.hypergraph.rStarWitness": "Świadek r*: T{index}=[{labels}], {edge}, |T przecięcie E|={hits}"
+  ,"export.hypergraph.rDistribution": "Rozkład max |T przecięcie E| po minimalnych transwersalach: {distribution}"
+  ,"export.hypergraph.graphicTitle": "Hipergraf graficzny"
+  ,"export.hypergraph.removedEdges": "Usunięte hiperkrawędzie: [{values}]"
+  ,"export.hypergraph.removedVertices": "Usunięte hiperwierzchołki: [{values}]"
+  ,"export.hypergraph.essentialVertices": "Wierzchołki istotne: [{values}]"
+  ,"export.hypergraph.fraOperations": "Operacje: wiersze={rows}, kolumny={columns}, komórki={cells}"
+  ,"export.hypergraph.transversal": "Transwersala: {value}"
+  ,"export.hypergraph.exactTransversal": "Transwersala dokładna: {value}"
+  ,"script.analyzePnh.matrixHeaderMissing": "Nie znaleziono macierzowego nagłówka PNH."
+  ,"script.analyzePnh.tooFewRows": "Dane PNH zawierają za mało wierszy."
+  ,"script.analyzePnh.invalidColumnCount": "Wiersz {row} ma {actual} kolumn zamiast {expected}."
+  ,"script.analyzePnh.unknownSymbol": "Nieznany symbol {symbol}."
+  ,"script.analyzePnh.noValidSubnets": "Brak poprawnych podsieci automatowych."
+  ,"core.generator.method.adaptive": "Adaptacyjna komponentowa"
+  ,"core.generator.reference.region": "Yakovlev et al. (AMAST 1998), teoria regionów"
+  ,"core.generator.noXtNet": "Nie znaleziono sieci z hipergrafem selekcji XT."
+  ,"core.generator.attempt": "Próba {attempt}/{total} [{method}] (P={places}, T={transitions})..."
+  ,"core.generator.method.constructiveXt": "Konstruktywny hipergraf XT"
+  ,"core.generator.method.constructiveLiveSafe": "Konstruktywna live+safe"
+  ,"core.generator.wrongNetType": "Wygenerowana sieć nie spełnia wymaganego typu."
+  ,"core.generator.stateLimitReached": "Analiza osiągnęła limit stanów."
+  ,"core.generator.livenessFailedXt": "Warunek żywotności nie został spełniony (konstruktywna XT)."
+  ,"core.generator.safenessFailedXt": "Warunek bezpieczeństwa nie został spełniony (konstruktywna XT)."
+  ,"core.generator.selectionNotXt": "Hipergraf selekcji nie jest hipergrafem XT ({reason})."
+  ,"core.generator.changeParameters": "{reason} Zmień parametry generatora."
+  ,"core.generator.noMatchingModel": "Nie znaleziono modelu spełniającego warunki."
+  ,"core.generator.livenessFailedConstructive": "Warunek żywotności nie został spełniony (konstruktywna)."
+  ,"core.generator.safenessFailedConstructive": "Warunek bezpieczeństwa nie został spełniony (konstruktywna)."
+  ,"core.generator.changeParametersExample": "{reason} Zmień parametry generatora (np. zmniejsz liczbę miejsc/tranzycji)."
+  ,"core.generator.livenessFailed": "Warunek żywotności nie został spełniony."
+  ,"core.generator.safenessFailed": "Warunek bezpieczeństwa nie został spełniony."
+  ,"core.generator.searchTimeout": "Nie znaleziono sieci spełniających warunki w czasie {seconds}s ({attempts} prób, zakres P[{minPlaces}-{maxPlaces}] T[{minTransitions}-{maxTransitions}]). Zwiększ limit czasu lub zakres."
+  ,"app.benchmark.profileTitle": "Profil zakresu benchmarkowego"
+  ,"app.benchmark.exportProfileCsv": "Eksport profilu CSV"
+  ,"app.benchmark.file": "Plik"
+  ,"app.benchmark.format": "Format"
+  ,"app.benchmark.size": "Rozmiar"
+  ,"app.benchmark.marked": "Ozn."
+  ,"app.benchmark.tokens": "Tokeny"
+  ,"app.benchmark.warnings": "Uwagi"
+  ,"app.benchmark.stratum": "Warstwa"
+  ,"app.benchmark.representativeSummary": "Wybrano {selected}/{parseable} poprawnych modeli, cel={target}, warstwy: {strata}."
+  ,"nav.menuCategories": "Kategorie menu"
+  ,"docs.systemTitle": "Dokumentacja systemu"
+  ,"docs.title": "Dokumentacja"
+  ,"docs.editAdmin": "Edytuj (admin)"
+  ,"docs.descriptionHeading": "Opis systemu"
+  ,"docs.algorithmsHeading": "Algorytmy"
+  ,"docs.descriptionEn": "Opis (EN)"
+  ,"docs.descriptionPl": "Opis (PL)"
+  ,"workspace.viewsAria": "Widoki obszaru roboczego"
+  ,"workspace.editMode": "Tryb edycji"
+  ,"workspace.simulation": "Symulacja"
+  ,"workspace.hypergraphMode": "Tryb hipergrafu"
+  ,"workspace.hypergraphEditModes": "Tryby edycji hipergrafu"
+  ,"workspace.view": "Widok"
+  ,"canvas.help.centerKey": "Przycisk centrowania"
+  ,"decomposition.help.allPinvariants": "Wszystkie wyznaczone p-inwarianty"
+  ,"common.close": "Zamknij"
+  ,"core.pnh.initialMarkingRowInvalid": "Nieprawidłowy wiersz oznakowania początkowego."
+  ,"core.pnh.initialMarkingValueInvalid": "Nieprawidłowa wartość oznakowania początkowego."
+  ,"core.pnh.matrixHeaderInvalid": "Nieprawidłowy macierzowy nagłówek PNH."
+  ,"core.pnh.matrixPayloadTooShort": "Macierzowe dane PNH są zbyt krótkie."
+  ,"core.pnh.matrixColumnCount": "Wiersz macierzy {row} ma {actual} kolumn; oczekiwano {expected}."
+  ,"core.pnh.matrixSymbolUnknown": "Nieznany symbol macierzy \"{symbol}\"."
+  ,"core.pnh.transitionCountMismatch": "Zadeklarowano {declared} tranzycji; odczytano {parsed}."
+  ,"core.pnh.sectionLineInvalid": "Nieprawidłowy wiersz {line} sekcji [{section}]."
+  ,"core.pnh.arcNodeMissing": "Łuk {id} wskazuje nieistniejący węzeł."
+  ,"core.pnh.arcBipartite": "Łuk {id} musi łączyć miejsce z tranzycją."
+  ,"core.pnh.sectionNoNodes": "Sekcyjny plik PNH nie zawiera węzłów."
+  ,"core.petriLayout.invalidParserResult": "Nieprawidłowy wynik parsera PNH."
+  ,"core.decompositionRenderer.hyperedges": "Hiperkrawędzie"
+  ,"core.decompositionRenderer.dependencyMissing": "Brak zależności widoku dekompozycji: {name}."
+  ,"core.decompositionRenderer.domRequired": "Renderer SVG wymaga dokumentu DOM z funkcją createElementNS."
+  ,"core.hypergraph.noMinimalForRExact": "Nie znaleziono minimalnych transwersal dla analizy r-exact."
+  ,"app.library.summary": "Biblioteka: {name}. Pliki PNH: {count}."
+  ,"app.sfc.plcopenExported": "Wyeksportowano PLCopen XML."
+  ,"app.sfc.coordinatorExported": "Wyeksportowano kod ST koordynatora."
+  ,"script.profile.libraryDirectoryMissing": "Nie znaleziono katalogu plików biblioteki: {path}"
+  ,"script.profile.parseError": "Błąd parsowania PNH"
+  ,"script.figures.serverUnreachable": "Serwer pod adresem {url} jest niedostępny. Uruchom POOH albo usuń zmienną POOH_BASE_URL."
+  ,"script.figures.serverStartFailed": "Nie udało się uruchomić serwera PHP pod adresem {url}.\n{log}"
+  ,"script.figures.waitTimeout": "Przekroczono czas oczekiwania na \"{fragments}\" w {selector}. Bieżący tekst: {current}"
+}

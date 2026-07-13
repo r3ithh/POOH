@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "pooh-example-reference-1",
+  "caseName": "xt_decomposition_case",
+  "input": {
+    "format": "matrix",
+    "places": 3,
+    "transitions": 3,
+    "arcs": 6,
+    "markedPlaces": [
+      "P1"
+    ]
+  },
+  "pinvariants": {
+    "mode": "full",
+    "placeIds": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "transitionIds": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "coveredAllPlaces": true,
+    "uncoveredPlaces": [],
+    "correctSubnetsCount": 1,
+    "invariants": [
+      {
+        "vector": [
+          1,
+          1,
+          1
+        ],
+        "supportPlaces": [
+          "P1",
+          "P2",
+          "P3"
+        ],
+        "markedSupportCount": 1,
+        "correctSubnet": true
+      }
+    ]
+  },
+  "selectionHypergraph": {
+    "originalRows": 3,
+    "originalCols": 1,
+    "originalRowLabels": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "originalColLabels": [
+      "D1"
+    ],
+    "originalDualMatrix": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "reducedRows": 1,
+    "reducedCols": 1,
+    "reducedRowLabels": [
+      "P1"
+    ],
+    "reducedColLabels": [
+      "D1"
+    ],
+    "reducedDualMatrix": [
+      [
+        1
+      ]
+    ],
+    "removedRowLabels": [
+      "P2",
+      "P3"
+    ],
+    "removedColLabels": [],
+    "essentialLabels": [
+      "D1"
+    ]
+  },
+  "transversals": {
+    "minimalCount": 1,
+    "exactCount": 1,
+    "minimal": [
+      [
+        "D1"
+      ]
+    ],
+    "exact": [
+      [
+        "D1"
+      ]
+    ]
+  }
+}

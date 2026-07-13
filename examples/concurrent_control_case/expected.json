@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "pooh-example-reference-1",
+  "caseName": "concurrent_control_case",
+  "input": {
+    "format": "matrix",
+    "places": 4,
+    "transitions": 4,
+    "arcs": 8,
+    "markedPlaces": [
+      "P1",
+      "P3"
+    ]
+  },
+  "pinvariants": {
+    "mode": "full",
+    "placeIds": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "transitionIds": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "coveredAllPlaces": true,
+    "uncoveredPlaces": [],
+    "correctSubnetsCount": 2,
+    "invariants": [
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "supportPlaces": [
+          "P3",
+          "P4"
+        ],
+        "markedSupportCount": 1,
+        "correctSubnet": true
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "supportPlaces": [
+          "P1",
+          "P2"
+        ],
+        "markedSupportCount": 1,
+        "correctSubnet": true
+      }
+    ]
+  },
+  "selectionHypergraph": {
+    "originalRows": 4,
+    "originalCols": 2,
+    "originalRowLabels": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "originalColLabels": [
+      "D1",
+      "D2"
+    ],
+    "originalDualMatrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "reducedRows": 2,
+    "reducedCols": 2,
+    "reducedRowLabels": [
+      "P1",
+      "P3"
+    ],
+    "reducedColLabels": [
+      "D1",
+      "D2"
+    ],
+    "reducedDualMatrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "removedRowLabels": [
+      "P2",
+      "P4"
+    ],
+    "removedColLabels": [],
+    "essentialLabels": [
+      "D1",
+      "D2"
+    ]
+  },
+  "transversals": {
+    "minimalCount": 1,
+    "exactCount": 1,
+    "minimal": [
+      [
+        "D1",
+        "D2"
+      ]
+    ],
+    "exact": [
+      [
+        "D1",
+        "D2"
+      ]
+    ]
+  }
+}

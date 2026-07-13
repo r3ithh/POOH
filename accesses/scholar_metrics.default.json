@@ -1,0 +1,18 @@
+{
+  "example_author": {
+    "googleScholar": {
+      "articles": 12,
+      "citations": 34,
+      "hIndex": 4,
+      "i10Index": 2,
+      "updatedAt": "2026-01-01T00:00:00+00:00"
+    },
+    "wos": {
+      "articles": 10,
+      "citations": 27,
+      "hIndex": 3,
+      "i10Index": 1,
+      "updatedAt": "2026-01-01T00:00:00+00:00"
+    }
+  }
+}

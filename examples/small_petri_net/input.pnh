@@ -1,0 +1,10 @@
+2
+2
+x1
+1x
+10
+
+;Places=P1;P2
+;Transitions=t1;t2
+;Benchmark: small_petri_net
+;Expected: 2 places, 2 transitions, 4 arcs, safe cyclic behavior

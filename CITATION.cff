@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use POOH in academic work, please cite this software using these metadata."
+type: software
+title: "POOH: A research software platform for Petri-net-based concurrent control systems and XT/R-exact hypergraph decomposition"
+abstract: >-
+  POOH (Power Objects of Hypergraphs) is a research software platform for
+  modelling, analysing and decomposing Petri-net-based concurrent control
+  systems. It supports Petri-net import and drawing, P-invariant and
+  state-machine-component computation, selection-hypergraph construction,
+  FRA reduction, transversal enumeration, XT/1-exact, c-exact and r-exact
+  analysis, decomposition visualization, local max-plus timing models,
+  structurally generated Takagi-Sugeno fuzzy artifacts, and reproducible
+  CPU/WebGPU benchmark reporting.
+authors:
+  - family-names: "Stefanowicz"
+    given-names: "Łukasz"
+    affiliation: "Institute of Engineering and Technical Sciences, State University of Applied Sciences in Głogów"
+    email: "l.stefanowicz@pans.glogow.pl"
+    orcid: "https://orcid.org/0000-0001-6959-4861"
+contact:
+  - family-names: "Stefanowicz"
+    given-names: "Łukasz"
+    email: "l.stefanowicz@pans.glogow.pl"
+version: "1.0.0"
+date-released: "2026-07-13"
+license: "MIT"
+repository-code: "https://github.com/r3ithh/POOH"
+url: "https://pooh.edu.pl"
+keywords:
+  - "research software"
+  - "Petri nets"
+  - "concurrent control systems"
+  - "hypergraphs"
+  - "selection hypergraphs"
+  - "exact transversals"
+  - "XT hypergraphs"
+  - "r-exact hypergraphs"
+  - "FRA reduction"
+  - "max-plus algebra"
+  - "Takagi-Sugeno fuzzy systems"
+  - "WebGPU"
+
+

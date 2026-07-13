@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "pooh-example-reference-1",
+  "caseName": "small_petri_net",
+  "input": {
+    "format": "matrix",
+    "places": 2,
+    "transitions": 2,
+    "arcs": 4,
+    "markedPlaces": [
+      "P1"
+    ]
+  },
+  "pinvariants": {
+    "mode": "full",
+    "placeIds": [
+      "P1",
+      "P2"
+    ],
+    "transitionIds": [
+      "T1",
+      "T2"
+    ],
+    "coveredAllPlaces": true,
+    "uncoveredPlaces": [],
+    "correctSubnetsCount": 1,
+    "invariants": [
+      {
+        "vector": [
+          1,
+          1
+        ],
+        "supportPlaces": [
+          "P1",
+          "P2"
+        ],
+        "markedSupportCount": 1,
+        "correctSubnet": true
+      }
+    ]
+  },
+  "selectionHypergraph": {
+    "originalRows": 2,
+    "originalCols": 1,
+    "originalRowLabels": [
+      "P1",
+      "P2"
+    ],
+    "originalColLabels": [
+      "D1"
+    ],
+    "originalDualMatrix": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "reducedRows": 1,
+    "reducedCols": 1,
+    "reducedRowLabels": [
+      "P1"
+    ],
+    "reducedColLabels": [
+      "D1"
+    ],
+    "reducedDualMatrix": [
+      [
+        1
+      ]
+    ],
+    "removedRowLabels": [
+      "P2"
+    ],
+    "removedColLabels": [],
+    "essentialLabels": [
+      "D1"
+    ]
+  },
+  "transversals": {
+    "minimalCount": 1,
+    "exactCount": 1,
+    "minimal": [
+      [
+        "D1"
+      ]
+    ],
+    "exact": [
+      [
+        "D1"
+      ]
+    ]
+  }
+}

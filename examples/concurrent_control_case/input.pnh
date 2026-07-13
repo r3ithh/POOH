@@ -1,0 +1,12 @@
+4
+4
+x100
+1x00
+00x1
+001x
+1010
+
+;Places=P1;P2;P3;P4
+;Transitions=t1;t2;t3;t4
+;Benchmark: concurrent_control_case
+;Expected: two independent safe cyclic subprocesses

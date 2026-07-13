@@ -1,0 +1,2 @@
+id,full_name_pl,full_name_en,degree_pl,degree_en,emails,unit_pl,unit_en,project_role_pl,project_role_en,research_area_pl,research_area_en,orcid,google_scholar,researchgate,wos,website
+example_author,Example Researcher,Example Researcher,"dr inz.","PhD Eng.",researcher@example.org,"Przykladowe Laboratorium Systemow Wspolbieznych","Example Concurrent Systems Laboratory","Przykladowy badacz","Example Researcher","Sieci Petriego; Hipergrafy; Systemy wspolbiezne","Petri nets; Hypergraphs; Concurrent systems",,,,,https://example.org

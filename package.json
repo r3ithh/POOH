@@ -1,0 +1,25 @@
+{
+  "name": "pooh-research-software",
+  "version": "1.0.0",
+  "private": true,
+  "description": "POOH research software support scripts and reproducibility tests.",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "node --test tests/*.test.js",
+    "test:php": "php tests/i18n-php.php && php tests/app-config-php.php && php tests/access-templates-php.php",
+    "test:browser": "playwright test",
+    "check": "node --check src/core/index.js && node --check src/core/i18n.js && node --check src/core/worker-i18n.js && node --check src/core/pnh.js && node --check src/core/petri-layout.js && node --check src/core/pinvariants.js && node --check src/core/hypergraph.js && node --check src/core/xtrec.js && node --check src/core/transversal.js && node --check src/core/selection-hypergraph.js && node --check src/core/petri-analysis.js && node --check src/core/generator.js && node --check src/core/sfc.js && node --check src/core/exporters.js && node --check src/core/max-plus.js && node --check src/core/decomposition-view.js && node --check src/core/decomposition-renderer.js && node --check src/core/fuzzy-source.js && node --check src/core/fuzzy-membership.js && node --check src/core/fuzzy-transversal.js && node --check src/core/takagi-sugeno.js && node --check src/core/fuzzy-artifact.js && node --check src/core/fuzzy.js && node --check src/core/benchmark.js && node --check scripts/example_reference.js && node --check scripts/run_examples.js && node --check scripts/profile_pnh_library.js && node --check scripts/analyze_pnh_xt_conditions.js && node --check public/app.js && node --check public/generator-worker.js && node --check public/pinvariant-worker.js && node --check public/transversal-worker.js && node --check public/xtrec-worker.js && node --check public/sfc-worker.js && node --check public/hypergraph-structural-xt.js",
+    "check:php": "php -l index.php && php -l library_api.php && php -l export_pnh.php && php -l src/AppConfig.php && php -l src/I18n.php && php -l src/PnhExporter.php",
+    "examples": "node scripts/run_examples.js",
+    "analyze:xt-conditions": "node scripts/analyze_pnh_xt_conditions.js",
+    "profile:library": "node scripts/profile_pnh_library.js",
+    "ci": "npm run test:unit && npm run test:php && npm run examples && npm run check && npm run check:php"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0"
+  },
+  "license": "MIT"
+}

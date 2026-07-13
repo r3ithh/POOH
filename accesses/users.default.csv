@@ -1,0 +1,2 @@
+username,password_hash,display_name,role,enabled
+admin,REPLACE_WITH_BCRYPT_HASH,Administrator,admin,0
