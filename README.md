@@ -1,5 +1,8 @@
 # POOH
 
+[![CI](https://github.com/r3ithh/POOH/actions/workflows/ci.yml/badge.svg)](https://github.com/r3ithh/POOH/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **POOH: Power Objects of Hypergraphs** is a research software platform for Petri-net-based modelling, analysis and decomposition of concurrent control systems. The current research direction is:
 
 `Petri net -> P-invariants / SMC -> selection hypergraph -> XT / r-exact decomposition -> (max,+) timing -> Takagi-Sugeno fuzzy supervision`
@@ -158,10 +161,8 @@ npm run check:php
 
 ## Citation
 
-Use the metadata in [CITATION.cff](CITATION.cff). Before the first public
-release, replace the marked GitHub-login and ORCID placeholders and confirm the
-release date. Add the Zenodo version and concept DOIs only after Zenodo has
-archived the tagged release.
+Use the metadata in [CITATION.cff](CITATION.cff). The Zenodo version DOI and
+concept DOI will be added after Zenodo has archived the tagged release.
 
 ## License
 
