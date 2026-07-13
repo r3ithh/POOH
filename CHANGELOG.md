@@ -4,6 +4,10 @@ All notable changes to POOH are documented here.
 
 ## [Unreleased]
 
+No changes yet.
+
+## [1.0.0] - 2026-07-13
+
 ### Added
 
 - Server-side deployment configuration in `config/` and `src/AppConfig.php`,
@@ -19,8 +23,10 @@ All notable changes to POOH are documented here.
 - Regression tests for language-catalog key/placeholder parity, worker/core
   language propagation, dynamic browser language switching and accidental
   embedded Polish production messages.
-- SoftwareX-oriented repository structure: `docs/`, `examples/`, `tests/`, `softwarex/`.
-- `CITATION.cff`, `LICENSE`, `CONTRIBUTING.md` and SoftwareX support notes.
+- Research-software repository structure with `docs/`, `examples/`, `tests/`,
+  `data/`, `scripts/` and the reusable `src/core/` modules.
+- `CITATION.cff`, `LICENSE`, `CONTRIBUTING.md` and reviewer-oriented
+  research-software documentation.
 - Testable research-core modules in `src/core/` for PNH parsing/export, P-invariant computation, selection hypergraph construction, FRA, transversals and r-exact smoke analysis.
 - Export-format helpers in `src/core/exporters.js` and a `src/core/index.js` module entry point.
 - Browser/Node benchmark core in `src/core/benchmark.js` for benchmark summaries and CSV/LaTeX exports.
@@ -52,23 +58,7 @@ All notable changes to POOH are documented here.
 - Small `SoftwareX examples` PNH library fixture for deterministic browser benchmark tests.
 - Machine-readable `examples/*/expected.json` reference outputs for reproducible example cases.
 - `scripts/example_reference.js` and `scripts/run_examples.js` for deterministic example reference validation.
-- `docs/ip_protection_strategy.md` describing public SoftwareX release and protected service deployment options.
 - `.gitignore` for local dependency and Playwright artifacts.
-- SoftwareX paper workspace in `softwarex/paper/`, including manuscript
-  scaffold, highlights, figure plan, submission checklist and context pack.
-- `softwarex/figures/README.md` with screenshot hygiene notes for the article.
-- Reproducible SoftwareX figure generator in
-  `scripts/generate_softwarex_figures.js` with `npm run softwarex:figures`.
-- Generated SoftwareX figure assets in `softwarex/figures/`.
-- SoftwareX article plan in `softwarex/paper/article_plan.md`, aligned with
-  the journal template and current author-guide constraints.
-- Working SoftwareX LaTeX manuscript in
-  `softwarex/paper/pooh-softwarex-manuscript.tex`.
-- One-column SoftwareX OSP submission manuscript in
-  `softwarex/paper/main_softwarex.tex`, with compiled PDF preview.
-- Separate two-column SoftwareX publication-preview source in
-  `softwarex/paper/main_softwarex_twocolumn_preview.tex` for local visual
-  checks against final ScienceDirect-style articles.
 
 ### Changed
 
@@ -85,9 +75,6 @@ All notable changes to POOH are documented here.
 - Fresh installations use safe access templates: the administrator remains
   disabled without a password, while fictional author and metrics records
   document the internal research-team data contract.
-- `softwarex/paper/main_softwarex.tex` now uses the official SoftwareX OSP
-  `elsarticle` `preprint,12pt,a4paper` submission layout; the previous
-  two-column preview has been preserved separately.
 - README rewritten around installation, first run, research purpose, citation and testing.
 - Developer, reviewer and reproducibility documentation now describe `npm run ci` and `npm run test:browser`.
 - Example documentation now names the expected P-invariant, selection-hypergraph and transversal outputs verified by `npm run examples`.
@@ -135,4 +122,8 @@ All notable changes to POOH are documented here.
 ### Notes
 
 - Existing browser/PHP application behavior is preserved.
-- Full migration of algorithmic logic from `public/app.js` remains planned for v1.0.0 hardening.
+- Further migration of browser-controller logic from `public/app.js` into
+  reusable `src/core/` modules remains planned for post-v1.0.0 development.
+
+[Unreleased]: https://github.com/r3ithh/POOH/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/r3ithh/POOH/releases/tag/v1.0.0

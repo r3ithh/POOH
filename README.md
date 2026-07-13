@@ -166,7 +166,7 @@ concept DOI will be added after Zenodo has archived the tagged release.
 
 ## License
 
-The repository is prepared with the MIT License. Confirm this choice before public archival release if institutional or third-party constraints apply.
+POOH is distributed under the [MIT License](LICENSE).
 
 ## Documentation
 
