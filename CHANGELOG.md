@@ -4,7 +4,11 @@ All notable changes to POOH are documented here.
 
 ## [Unreleased]
 
-No changes yet.
+### Changed
+
+- Added the Zenodo version DOI `10.5281/zenodo.21341387` and concept DOI
+  `10.5281/zenodo.21341386` to the citation metadata and README after the
+  archival v1.0.0 release was published.
 
 ## [1.0.0] - 2026-07-13
 

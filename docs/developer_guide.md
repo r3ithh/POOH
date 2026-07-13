@@ -94,7 +94,7 @@ Recommended extraction order:
 ## Test Commands
 
 ```bash
-npm install
+npm ci
 npm test
 npm run test:php
 npm run examples

@@ -3,7 +3,7 @@
 ## Quick Reproduction
 
 ```bash
-npm install
+npm ci
 npm test
 npm run examples
 npm run ci

@@ -23,9 +23,18 @@ contact:
     email: "l.stefanowicz@pans.glogow.pl"
 version: "1.0.0"
 date-released: "2026-07-13"
+doi: "10.5281/zenodo.21341387"
 license: "MIT"
 repository-code: "https://github.com/r3ithh/POOH"
+repository-artifact: "https://doi.org/10.5281/zenodo.21341387"
 url: "https://pooh.edu.pl"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21341387"
+    description: "Archived snapshot of POOH version 1.0.0"
+  - type: doi
+    value: "10.5281/zenodo.21341386"
+    description: "Zenodo concept DOI for all archived POOH versions"
 keywords:
   - "research software"
   - "Petri nets"
@@ -39,5 +48,4 @@ keywords:
   - "max-plus algebra"
   - "Takagi-Sugeno fuzzy systems"
   - "WebGPU"
-
 
